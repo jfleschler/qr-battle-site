@@ -1,6 +1,6 @@
-# QR Battle website
+# Codekin website
 
-Landing, support and privacy pages for QR Battle, the AR creature battler for iPhone.
+Landing, support and privacy pages for Codekin, the AR creature battler for iPhone.
 
 Published at https://jfleschler.github.io/qr-battle-site/ with GitHub Pages from the root of `main`. This repository holds only the public website; the game source is kept separately.
 
