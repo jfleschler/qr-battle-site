@@ -4,57 +4,127 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Codekin · Every QR code is a portal</title>
-<meta name="description" content="An augmented reality creature battler for iPhone. Scan any QR code, watch it bloom into a portal, and battle and decode the Codekin that lives inside.">
+<meta name="description" content="An augmented reality creature battler for iPhone. Scan any QR code, watch it bloom into a portal, then battle and catch the Codekin that lives inside.">
 <meta name="theme-color" content="#080c1a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Codekin">
+<meta property="og:title" content="Codekin · Every QR code is a portal">
+<meta property="og:description" content="Scan any QR code. Battle the creature that lives inside. Catch it. An AR creature battler for iPhone.">
+<meta property="og:image" content="https://jfleschler.github.io/qr-battle-site/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://jfleschler.github.io/qr-battle-site/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="./assets/icon.png">
+<link rel="apple-touch-icon" href="./assets/icon.png">
 <link rel="stylesheet" href="./style.css">
+<script src="./assets/site.js" defer></script>
 </head>
 <body>
 <nav aria-label="Main navigation">
   <a class="brand" href="./"><img src="./assets/icon.png" alt="" width="36" height="36"><span>Codekin</span></a>
-  <div class="links"><a href="./support/">Support</a><a href="./privacy/">Privacy</a></div>
+  <div class="links"><a href="#codekin">Codekin</a><a href="#habitats">Habitats</a><a href="./press/">Press</a><a href="./support/">Support</a></div>
 </nav>
 <main>
   <section class="hero">
     <div>
       <p class="eyebrow">Every QR code is a portal</p>
       <h1>Scan the world. Catch what lives in it.</h1>
-      <p class="lede">Point your iPhone at any QR code (a menu, a poster, a Wi-Fi sign) and its own squares rise off the paper as glowing columns. A Codekin, a creature made of living data, steps out.</p>
-      <span class="badge">In beta on TestFlight for iPhone</span>
+      <p class="lede">Point your iPhone at any QR code (a menu, a poster, a Wi-Fi sign) and its own squares rise off the paper as glowing columns. A Codekin, a creature made of living data, steps out onto your table.</p>
+      <div class="actions">
+        <a class="button" href="https://testflight.apple.com/join/FkPMTj8T">Join the beta</a>
+        <span class="badge">Free on iPhone · TestFlight beta</span>
+      </div>
     </div>
     <img src="./assets/hero.jpg" alt="A flame Codekin standing on a QR code whose squares have risen into glowing orange columns" width="720" height="768">
   </section>
+
+  <section class="panel events" aria-labelledby="events-title" hidden>
+    <p class="eyebrow" id="events-title">Happening now</p>
+    <div class="event-row">
+      <div class="event"><span class="event-label">This week</span><strong id="event-week"></strong><span id="event-week-detail"></span></div>
+      <div class="event"><span class="event-label" id="event-month-label">This month</span><strong id="event-month"></strong><span>Its Codekin turn up more often from every code.</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="how-title" class="section">
+    <p class="eyebrow">How it works</p>
+    <h2 id="how-title">Three steps, any code, anywhere</h2>
+    <ol class="steps">
+      <li class="panel"><span class="step">1</span><h3>Scan</h3><p>Hold your phone up to any QR code. The corners lock on and the code blooms into a portal right where it's printed.</p></li>
+      <li class="panel"><span class="step">2</span><h3>Battle</h3><p>The Codekin inside steps out onto the real surface. Pick moves with an eye on matchups: blaze, tide, grove, spark, stone, gale, shade and prism.</p></li>
+      <li class="panel"><span class="step">3</span><h3>Decode</h3><p>Weaken it, then catch it: its code fragments scatter around you, and you move your phone to read each one before time runs out.</p></li>
+    </ol>
+  </section>
+
+  <section id="codekin" aria-labelledby="codekin-title" class="section">
+    <p class="eyebrow">The Codekin</p>
+    <h2 id="codekin-title"><span id="codekin-count">131</span> creatures made of living data</h2>
+    <p class="section-lede">Every code hides its own Codekin, and each one carries the signature of the code it came from, so no two look quite alike. Legends move from code to code, and a few only answer to secrets.</p>
+    <div class="filters" role="group" aria-label="Filter by element" id="filters"></div>
+    <ul class="gallery" id="gallery" aria-live="polite"></ul>
+    <noscript><p class="section-lede">Turn on JavaScript to browse every Codekin.</p></noscript>
+  </section>
+
+  <section id="habitats" aria-labelledby="habitats-title" class="section">
+    <p class="eyebrow">Habitats</p>
+    <h2 id="habitats-title">Different codes draw different Codekin</h2>
+    <p class="section-lede">What a code points to decides what lives behind it. Menus run hot, waterside codes run wet, and pay codes hide rare finds. Track down all eighteen.</p>
+    <ul class="habitats" id="habitat-list"></ul>
+  </section>
+
+  <section class="split section">
+    <div class="panel">
+      <p class="eyebrow">One of a kind</p>
+      <h2>Show off every catch</h2>
+      <p>Each Codekin's look comes from the code it rose out of. Share a card of your newest catch, with its code mark and the kind of place it was hiding, never what the code says.</p>
+    </div>
+    <img src="./assets/share-card.jpg" alt="A share card of a shiny Mochaflare, level 14, found in a menu or food code" width="720" height="900" loading="lazy">
+  </section>
+
   <div class="cards">
-    <section class="panel">
-      <span class="finder" aria-hidden="true"></span>
-      <p class="eyebrow">131 Codekin</p>
-      <h2>Flame, tide, leaf, spark, stone, gale, shade, light</h2>
-      <p>Every Codekin carries the signature of the code it came from, so no two look quite alike.</p>
-    </section>
-    <section class="panel">
-      <span class="finder" aria-hidden="true"></span>
-      <p class="eyebrow">Turn-based battles</p>
-      <h2>Weaken it, then decode it</h2>
-      <p>Its code fragments scatter around you. Aim your phone to read each one before time runs out.</p>
-    </section>
     <section class="panel">
       <span class="finder" aria-hidden="true"></span>
       <p class="eyebrow">Face to face</p>
       <h2>Battle and trade with a friend</h2>
       <p>Stand next to each other, scan the same code, and fight or swap Codekin on one shared stage.</p>
     </section>
+    <section class="panel">
+      <span class="finder" aria-hidden="true"></span>
+      <p class="eyebrow">Every day</p>
+      <h2>Goals, streaks and rank</h2>
+      <p>Three new goals each day, a streak bonus for coming back, and a trainer rank that draws out stronger Codekin as you grow.</p>
+    </section>
+    <section class="panel">
+      <span class="finder" aria-hidden="true"></span>
+      <p class="eyebrow">Private by design</p>
+      <h2>No accounts, ads or tracking</h2>
+      <p>Camera images are processed on your iPhone and never leave it. Your save is backed up to your own iCloud.</p>
+    </section>
   </div>
+
   <section class="panel help">
     <div>
-      <h2>Need a hand?</h2>
-      <p>Questions, bugs or feedback from the beta.</p>
+      <h2>Play the beta</h2>
+      <p>Codekin is in open beta on iPhone. Join on TestFlight and tell us what you find.</p>
     </div>
-    <a class="button" href="./support/">Get support →</a>
+    <a class="button" href="https://testflight.apple.com/join/FkPMTj8T">Join on TestFlight →</a>
   </section>
 </main>
+
+<dialog id="codekin-detail" aria-labelledby="detail-name">
+  <form method="dialog"><button class="close" aria-label="Close">×</button></form>
+  <img id="detail-image" alt="" width="320" height="320">
+  <p class="eyebrow" id="detail-number"></p>
+  <h2 id="detail-name"></h2>
+  <div class="chips" id="detail-elements"></div>
+  <p id="detail-flavor"></p>
+  <p id="detail-evolution" class="muted"></p>
+</dialog>
+
 <footer>
   <span>© 2026 Jonathan Fleschler. All rights reserved.</span>
-  <span><a href="./support/">Support</a><a href="./privacy/">Privacy policy</a></span>
+  <span><a href="./press/">Press kit</a><a href="./support/">Support</a><a href="./privacy/">Privacy policy</a></span>
 </footer>
 </body>
 </html>

@@ -1,0 +1,1747 @@
+{
+  "codekin" : [
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 16,
+      "evolvesInto" : "Blazefang",
+      "flavor" : "A spark that climbed out of a café menu and refused to go out. Its crest flickers brighter whenever someone scans nearby.",
+      "id" : "emberkit",
+      "name" : "Emberkit",
+      "number" : 1,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Pyrevix",
+      "flavor" : "Its flame horns curl forward when it's ready to battle. Codes it guards stay warm to the touch.",
+      "id" : "blazefang",
+      "name" : "Blazefang",
+      "number" : 2,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "flavor" : "When it spreads its wings of fire, the whole block glows. It only lands on codes scanned a thousand times.",
+      "id" : "pyrevix",
+      "name" : "Pyrevix",
+      "number" : 3,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "evolvesAt" : 16,
+      "evolvesInto" : "Tidewyrm",
+      "flavor" : "A drop of water that learned to hold its shape. It leaves tiny wet footprints on every code it visits.",
+      "id" : "driplet",
+      "name" : "Driplet",
+      "number" : 4,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Leviathorn",
+      "flavor" : "Wears a breaking wave like a hood, and can hold it for hours without spilling a drop.",
+      "id" : "tidewyrm",
+      "name" : "Tidewyrm",
+      "number" : 5,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "tide",
+        "shade"
+      ],
+      "flavor" : "A whirlpool turns around its waist wherever it goes. Fountains rise to greet it.",
+      "id" : "leviathorn",
+      "name" : "Leviathorn",
+      "number" : 6,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 16,
+      "evolvesInto" : "Thornback",
+      "flavor" : "A seed of light that sprouted from a garden-center code. Its leaves follow the sun, or your phone's flashlight.",
+      "id" : "sproutle",
+      "name" : "Sproutle",
+      "number" : 7,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "grove",
+        "stone"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Arborok",
+      "flavor" : "Grows a new thorn for every code it outgrows. The leaves on its back rustle when it's pleased.",
+      "id" : "thornback",
+      "name" : "Thornback",
+      "number" : 8,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "grove",
+        "stone"
+      ],
+      "flavor" : "Roots itself beside a code and grows a canopy overhead. Smaller elementals nap in its shade.",
+      "id" : "arborok",
+      "name" : "Arborok",
+      "number" : 9,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 18,
+      "evolvesInto" : "Habanerok",
+      "flavor" : "A pepper-shaped flame that lives in takeout menus. It hiccups sparks when it's surprised.",
+      "id" : "chilibean",
+      "name" : "Chilibean",
+      "number" : 10,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Capsicrown",
+      "flavor" : "Glows like a paper lantern stuffed with heat. It challenges hot sauce bottles and always wins.",
+      "id" : "habanerok",
+      "name" : "Habanerok",
+      "number" : 11,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "flavor" : "Crowns itself ruler of every spice rack it finds. Its cape of flame trails sparks on the way out.",
+      "id" : "scovillain",
+      "name" : "Capsicrown",
+      "number" : 12,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Frillflare",
+      "flavor" : "Its tail flame sputters when it's sad and roars back when it's happy. Warm laptops are its favorite bed.",
+      "id" : "sizzlet",
+      "name" : "Sizzlet",
+      "number" : 13,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Scaldwing",
+      "flavor" : "Fans out its frills of flame when it's excited, which is most of the time.",
+      "id" : "salamblaze",
+      "name" : "Frillflare",
+      "number" : 14,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "gale"
+      ],
+      "flavor" : "Rides the heat rising off rooftops and chimneys. Its cry sounds like a kettle about to boil.",
+      "id" : "scaldrake",
+      "name" : "Scaldwing",
+      "number" : 15,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Mochaflare",
+      "flavor" : "Floats in a cup of its own making and steams gently. It only turns up at café codes.",
+      "id" : "brewbie",
+      "name" : "Brewbie",
+      "number" : 16,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "tide"
+      ],
+      "flavor" : "Roasts coffee beans along its back all day. By evening the whole street smells wonderful.",
+      "id" : "espressaur",
+      "name" : "Mochaflare",
+      "number" : 17,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Flarebrand",
+      "flavor" : "A matchstick of living flame. It flares up when startled and dims around puddles.",
+      "id" : "matchlet",
+      "name" : "Matchlet",
+      "number" : 18,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "flavor" : "Carries a torch that has never gone out, lighting the way for anyone lost after dark.",
+      "id" : "flarebrand",
+      "name" : "Flarebrand",
+      "number" : 19,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "stone"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Furnox",
+      "flavor" : "A clay pot with a fire inside. Hands that hold it stay warm for hours.",
+      "id" : "kilnkin",
+      "name" : "Kilnkin",
+      "number" : 20,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "stone"
+      ],
+      "flavor" : "A walking furnace that bakes little pottery gifts. Its chimney puffs a smoke ring when it's proud.",
+      "id" : "furnox",
+      "name" : "Furnox",
+      "number" : 21,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "stone"
+      ],
+      "flavor" : "Wears a helmet made from the first stone it ever melted through. It tunnels under parking lots for fun.",
+      "id" : "magmole",
+      "name" : "Magmound",
+      "number" : 22,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "stone"
+      ],
+      "flavor" : "A cloud of cooled lava with curled horns. When it charges, the cracks glow white-hot.",
+      "id" : "cinderam",
+      "name" : "Cindercurl",
+      "number" : 23,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "evolvesAt" : 22,
+      "evolvesInto" : "Wavelance",
+      "flavor" : "Appears after rainstorms and jumps into every puddle it can find. Fountains are its favorite place.",
+      "id" : "puddlepup",
+      "name" : "Splashlet",
+      "number" : 24,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "flavor" : "Cuts through the water with a lance of pure current. It balances beach balls on the tip for fun.",
+      "id" : "sealance",
+      "name" : "Wavelance",
+      "number" : 25,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Jellumina",
+      "flavor" : "Floats out of fountains and soap dispensers. If it laughs too hard it pops, then reforms a moment later.",
+      "id" : "bubblet",
+      "name" : "Bubblet",
+      "number" : 26,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide",
+        "spark"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Medusire",
+      "flavor" : "Drifts over harbors at night, flickering like a lantern. Its sting tickles more than it hurts.",
+      "id" : "jellumina",
+      "name" : "Jellumina",
+      "number" : 27,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide",
+        "spark"
+      ],
+      "flavor" : "Rules a glittering swarm of jellies. When it crackles, every streetlight along the pier blinks.",
+      "id" : "medusire",
+      "name" : "Medusire",
+      "number" : 28,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "evolvesAt" : 18,
+      "evolvesInto" : "Capstone",
+      "flavor" : "Carries a spiral shell from a beach-shop code. It hides inside when strangers scan it.",
+      "id" : "shellby",
+      "name" : "Shellby",
+      "number" : 29,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "tide",
+        "stone"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Capitan",
+      "flavor" : "Wears a stone cap it carved itself and won't take it off, not even to sleep.",
+      "id" : "capcrab",
+      "name" : "Capstone",
+      "number" : 30,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "tide",
+        "stone"
+      ],
+      "flavor" : "Gives orders to every tide pool in a booming voice. Its big claw can crack a coconut.",
+      "id" : "capitan",
+      "name" : "Capitan",
+      "number" : 31,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "evolvesAt" : 28,
+      "evolvesInto" : "Pearlord",
+      "flavor" : "Peeks out of its shell to see who scanned it, then snaps shut if they look too eager.",
+      "id" : "clamber",
+      "name" : "Clamber",
+      "number" : 32,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "tide",
+        "prism"
+      ],
+      "flavor" : "Every pearl it grows holds a reflection of the day it was made. It keeps them all orbiting close.",
+      "id" : "pearlord",
+      "name" : "Pearlord",
+      "number" : 33,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "tide",
+        "grove"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Drizzlord",
+      "flavor" : "Wears a lily pad for a hat and hums at the start of every shower.",
+      "id" : "frogurt",
+      "name" : "Lilyplop",
+      "number" : 34,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide",
+        "gale"
+      ],
+      "flavor" : "The little raincloud above it follows it everywhere. When it sulks, the cloud starts to drizzle.",
+      "id" : "toadstorm",
+      "name" : "Drizzlord",
+      "number" : 35,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "tide",
+        "prism"
+      ],
+      "flavor" : "Leaps up fountains at first light. Whoever sees its fins catch the sun has luck all day.",
+      "id" : "koiden",
+      "name" : "Glimmerfin",
+      "number" : 36,
+      "rarity" : "epic"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Moorshell",
+      "flavor" : "Carries a tiny garden on its spiral shell. It is never in a hurry, about anything, ever.",
+      "id" : "mossnail",
+      "name" : "Mosscurl",
+      "number" : 37,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove",
+        "tide"
+      ],
+      "flavor" : "Carries a little pond on its back, cattails and all. Dragonflies follow it across the park.",
+      "id" : "moorshell",
+      "name" : "Moorshell",
+      "number" : 38,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 18,
+      "evolvesInto" : "Shroomble",
+      "flavor" : "Pops up overnight after rain. Pat its cap and it puffs out a sleepy cloud of glowing spores.",
+      "id" : "sporelet",
+      "name" : "Sporelet",
+      "number" : 39,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Mycelord",
+      "flavor" : "Smaller mushrooms keep sprouting on its shoulders. It's very proud of them.",
+      "id" : "shroomble",
+      "name" : "Shroomble",
+      "number" : 40,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove",
+        "shade"
+      ],
+      "flavor" : "Its roots reach under the whole park. It knows the moment anyone steps off the path.",
+      "id" : "mycelord",
+      "name" : "Mycelord",
+      "number" : 41,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 16,
+      "evolvesInto" : "Blossomire",
+      "flavor" : "Keeps its petals closed until it trusts you. A sunny windowsill is its idea of paradise.",
+      "id" : "budling",
+      "name" : "Budling",
+      "number" : 42,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "grove",
+        "prism"
+      ],
+      "evolvesAt" : 32,
+      "evolvesInto" : "Florabelle",
+      "flavor" : "Flits between flower boxes leaving a trail of sparkles. Bees think it's the best flower in town.",
+      "id" : "blossomire",
+      "name" : "Blossomire",
+      "number" : 43,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "grove",
+        "prism"
+      ],
+      "flavor" : "Dances in public gardens at dawn. Wherever its petal skirt brushes the ground, flowers open.",
+      "id" : "florabelle",
+      "name" : "Florabelle",
+      "number" : 44,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 22,
+      "evolvesInto" : "Scytheleaf",
+      "flavor" : "Looks like a fallen leaf until the wind blows the others away and it stays put.",
+      "id" : "leaflit",
+      "name" : "Leaflit",
+      "number" : 45,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove",
+        "gale"
+      ],
+      "flavor" : "Its arms are as sharp as grass blades. It bows politely before every battle.",
+      "id" : "mantleaf",
+      "name" : "Scytheleaf",
+      "number" : 46,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Saguardian",
+      "flavor" : "A ball of thorns that only wants a hug. Very few people are brave enough.",
+      "id" : "prickit",
+      "name" : "Prickit",
+      "number" : 47,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "grove",
+        "stone"
+      ],
+      "flavor" : "Stands guard with its arms raised for days at a time. Lost hikers use it as a landmark.",
+      "id" : "saguardian",
+      "name" : "Saguardian",
+      "number" : 48,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Gourdian",
+      "flavor" : "Only comes out once the sun is low. It rolls downhill on purpose and giggles the whole way.",
+      "id" : "pumpkid",
+      "name" : "Pumpkid",
+      "number" : 49,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove",
+        "blaze"
+      ],
+      "flavor" : "Walks the streets at night with a candle burning in its head, lighting the way home.",
+      "id" : "gourdian",
+      "name" : "Gourdian",
+      "number" : 50,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "flavor" : "Curls up beside tea menus. Its tail froths like a whisk and smells faintly of matcha.",
+      "id" : "matchamew",
+      "name" : "Matchawisp",
+      "number" : 51,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 18,
+      "evolvesInto" : "Voltusk",
+      "flavor" : "Gathers around Wi-Fi routers to snack on stray signals. Its antennae crackle when it sneezes.",
+      "id" : "zapling",
+      "name" : "Zapling",
+      "number" : 52,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Tuskstorm",
+      "flavor" : "Charges so fast it leaves the smell of a thunderstorm behind. Streetlights flicker as it passes.",
+      "id" : "voltusk",
+      "name" : "Voltusk",
+      "number" : 53,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "flavor" : "When a group of them races by, the sky answers with thunder. Its tusks hum like power lines.",
+      "id" : "tuskstorm",
+      "name" : "Tuskstorm",
+      "number" : 54,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Flickerwisp",
+      "flavor" : "Naps under porch lights. Its tail glows brighter the more power it has sipped.",
+      "id" : "sparkgrub",
+      "name" : "Sparkcoil",
+      "number" : 55,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "spark",
+        "gale"
+      ],
+      "flavor" : "Drawn to screens and porch lights. The spots on its wings blink in patterns nobody can decode.",
+      "id" : "flickerfly",
+      "name" : "Flickerwisp",
+      "number" : 56,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Wattwarden",
+      "flavor" : "Plugs its tail into the wall when it's tired. It wiggles so hard the lights flicker.",
+      "id" : "plugpup",
+      "name" : "Pluglet",
+      "number" : 57,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark",
+        "shade"
+      ],
+      "flavor" : "Guards server rooms at night. Its collar crackles a warning before it ever has to fight.",
+      "id" : "wattweiler",
+      "name" : "Wattwarden",
+      "number" : 58,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 16,
+      "evolvesInto" : "Lampkin",
+      "flavor" : "Lights up whenever it has a good idea. It has a lot of good ideas.",
+      "id" : "bulblet",
+      "name" : "Bulblet",
+      "number" : 59,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Filamentor",
+      "flavor" : "Wears a lampshade at a jaunty angle and reads by its own light long after bedtime.",
+      "id" : "lampkin",
+      "name" : "Lampkin",
+      "number" : 60,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "spark",
+        "prism"
+      ],
+      "flavor" : "Floats above ballrooms and theaters. Its crystals scatter rainbows across every wall.",
+      "id" : "filamentor",
+      "name" : "Filamentor",
+      "number" : 61,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Gearhulk",
+      "flavor" : "Winds itself up every morning. If its key stops turning, it sits and waits for help.",
+      "id" : "gizmite",
+      "name" : "Gizmite",
+      "number" : 62,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark",
+        "stone"
+      ],
+      "flavor" : "A clockwork giant of stone and brass. Its chest gear ticks steadily, like a heartbeat.",
+      "id" : "gearhulk",
+      "name" : "Gearhulk",
+      "number" : 63,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "evolvesAt" : 22,
+      "evolvesInto" : "Quillvolt",
+      "flavor" : "Its copper quills catch static from carpets. Petting it is a shocking experience.",
+      "id" : "spikit",
+      "name" : "Spikit",
+      "number" : 64,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "flavor" : "Climbs to rooftops in storms and raises its quills to the sky. Lightning always finds it.",
+      "id" : "quillvolt",
+      "name" : "Quillvolt",
+      "number" : 65,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "spark",
+        "prism"
+      ],
+      "flavor" : "Only flutters near Wi-Fi codes. The arcs over its head show how strong the signal is.",
+      "id" : "wifly",
+      "name" : "Wifly",
+      "number" : 66,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Bouldron",
+      "flavor" : "Mistaken for a garden rock until it waddles off. It polishes its crystal every morning.",
+      "id" : "pebblit",
+      "name" : "Pebblit",
+      "number" : 67,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Colossite",
+      "flavor" : "Ancient crystals grow along its back. A single stomp registers on earthquake sensors.",
+      "id" : "bouldron",
+      "name" : "Bouldron",
+      "number" : 68,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "flavor" : "Sleeps for years at a time and wakes up as a new hill. The crystal in its chest still glows.",
+      "id" : "colossite",
+      "name" : "Colossite",
+      "number" : 69,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "evolvesAt" : 18,
+      "evolvesInto" : "Quartzel",
+      "flavor" : "Looks like a plain rock until it sneezes and its crystals ring like little bells.",
+      "id" : "shardlet",
+      "name" : "Shardlet",
+      "number" : 70,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Amethrone",
+      "flavor" : "Grows a new crystal every full moon. It hums quietly while they come in.",
+      "id" : "quartzel",
+      "name" : "Quartzel",
+      "number" : 71,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "stone",
+        "prism"
+      ],
+      "flavor" : "Sits like royalty on a throne of its own crystals. Light passing through them turns violet.",
+      "id" : "amethrone",
+      "name" : "Amethrone",
+      "number" : 72,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Drillstone",
+      "flavor" : "Curls into a ball and rolls away whenever it's startled, which is often.",
+      "id" : "rollbit",
+      "name" : "Rollbit",
+      "number" : 73,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "flavor" : "Bores tunnels under the city with its spinning drill. Subway crews leave it snacks.",
+      "id" : "armadrillo",
+      "name" : "Drillstone",
+      "number" : 74,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone",
+        "tide"
+      ],
+      "evolvesAt" : 30,
+      "evolvesInto" : "Ammonarch",
+      "flavor" : "Swam in seas that dried up long ago. Nobody knows how it woke up, least of all Ammolet.",
+      "id" : "ammolet",
+      "name" : "Ammolet",
+      "number" : 75,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "stone",
+        "tide"
+      ],
+      "flavor" : "Its spiral shell keeps a record of every year it has lived. It has a great many years.",
+      "id" : "ammonarch",
+      "name" : "Ammonarch",
+      "number" : 76,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Platelith",
+      "flavor" : "Wags its plated tail so hard when it's happy that it knocks itself over.",
+      "id" : "stegling",
+      "name" : "Plateling",
+      "number" : 77,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone",
+        "grove"
+      ],
+      "flavor" : "Moss grows on its stone plates, and small flowers in the moss. It wanders slowly through parks.",
+      "id" : "stegolith",
+      "name" : "Platelith",
+      "number" : 78,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "stone",
+        "shade"
+      ],
+      "flavor" : "Perches on old buildings pretending to be a statue. At night it stretches and goes exploring.",
+      "id" : "gargoling",
+      "name" : "Gargoling",
+      "number" : 79,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "stone",
+        "prism"
+      ],
+      "flavor" : "Rolls a little ball of sunlight wherever it goes. Its shell shimmers green, then gold.",
+      "id" : "scarabold",
+      "name" : "Sunroller",
+      "number" : 80,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 18,
+      "evolvesInto" : "Cyclonix",
+      "flavor" : "Rides updrafts between rooftops. It carries messages for anyone who shares a crumb.",
+      "id" : "gustling",
+      "name" : "Gustling",
+      "number" : 81,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Galecrest",
+      "flavor" : "Every beat of its wings stirs a tiny cyclone. Pilots report it racing jets for fun.",
+      "id" : "cyclonix",
+      "name" : "Cyclonix",
+      "number" : 82,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "flavor" : "Patrols the skyline at sunset on enormous wings, and lands only on the tallest buildings.",
+      "id" : "aerogriff",
+      "name" : "Galecrest",
+      "number" : 83,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Nocturnis",
+      "flavor" : "Stays up all night and naps through the day. It can turn its head almost all the way around.",
+      "id" : "hootling",
+      "name" : "Hushling",
+      "number" : 84,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale",
+        "shade"
+      ],
+      "flavor" : "Flies without a sound under the moon. The crescent on its chest glows brighter at midnight.",
+      "id" : "nocturowl",
+      "name" : "Nocturnis",
+      "number" : 85,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 16,
+      "evolvesInto" : "Kitewing",
+      "flavor" : "Tugs at the wind on breezy days. If you let go, it comes back by itself.",
+      "id" : "kitelet",
+      "name" : "Kitelet",
+      "number" : 86,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 34,
+      "evolvesInto" : "Dragonkite",
+      "flavor" : "Glides for hours on the wind off the beach, its ribbon tail snapping like applause.",
+      "id" : "kitewing",
+      "name" : "Kitewing",
+      "number" : 87,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale",
+        "prism"
+      ],
+      "flavor" : "Dances over festivals and parades. Children cheer, and it loops the crowd once more.",
+      "id" : "dragonkite",
+      "name" : "Dragonkite",
+      "number" : 88,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 22,
+      "evolvesInto" : "Zephyrra",
+      "flavor" : "Its wings beat so fast they hum a note. Each Hummbit hums a slightly different one.",
+      "id" : "hummbit",
+      "name" : "Hummbit",
+      "number" : 89,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale",
+        "grove"
+      ],
+      "flavor" : "Visits every flower box in the neighborhood before breakfast. Its streamers smell of spring.",
+      "id" : "zephyrra",
+      "name" : "Zephyrra",
+      "number" : 90,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Galeon",
+      "flavor" : "Hangs around boardwalks waiting for someone to drop a fry. Nobody ever does.",
+      "id" : "gullhop",
+      "name" : "Gusthop",
+      "number" : 91,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale",
+        "tide"
+      ],
+      "flavor" : "Its wings are as wide as a sail. It follows ships across the ocean and never seems tired.",
+      "id" : "galeon",
+      "name" : "Galeon",
+      "number" : 92,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale",
+        "prism"
+      ],
+      "flavor" : "A paper crane that folded itself out of a flyer's code. They say a thousand of them can grant a wish.",
+      "id" : "cranefold",
+      "name" : "Cranefold",
+      "number" : 93,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "flavor" : "Leaps from park trees and glides from branch to branch. It never touches the ground.",
+      "id" : "glidrel",
+      "name" : "Glidrel",
+      "number" : 94,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "gale",
+        "prism"
+      ],
+      "flavor" : "Hangs from porches and sings whenever the wind passes. Its song changes with the weather.",
+      "id" : "chimelet",
+      "name" : "Chimelet",
+      "number" : 95,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Shadelurk",
+      "flavor" : "Hides in the shadow under your bed and hums lullabies. Surprisingly bad at being scary.",
+      "id" : "shadeling",
+      "name" : "Shadeling",
+      "number" : 96,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Umbrawl",
+      "flavor" : "Half shadow, half mischief. It follows people home at a polite distance and pretends it isn't.",
+      "id" : "shadelurk",
+      "name" : "Shadelurk",
+      "number" : 97,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "flavor" : "Stitched together from midnight. Only its glowing eyes give away where it's watching from.",
+      "id" : "umbrawl",
+      "name" : "Umbrawl",
+      "number" : 98,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "evolvesAt" : 22,
+      "evolvesInto" : "Vespire",
+      "flavor" : "Hangs upside down under bridges and squeaks at passing bikes. It only wants to say hello.",
+      "id" : "batbit",
+      "name" : "Duskbit",
+      "number" : 99,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "shade",
+        "gale"
+      ],
+      "flavor" : "Sweeps through the city at dusk in a cloak of shadow. It has excellent manners and a terrible laugh.",
+      "id" : "vespire",
+      "name" : "Vespire",
+      "number" : 100,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Rummagrim",
+      "flavor" : "Washes everything it finds before eating it, including things that are not food.",
+      "id" : "masklet",
+      "name" : "Masklet",
+      "number" : 101,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "flavor" : "Rules the alleys after midnight with a trash-can lid for a shield. Every bin on the block is its kingdom.",
+      "id" : "rummagoon",
+      "name" : "Rummagrim",
+      "number" : 102,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "evolvesAt" : 24,
+      "evolvesInto" : "Gloomweaver",
+      "flavor" : "Spins tiny webs in mailbox corners. In the morning they're full of dew and look like lace.",
+      "id" : "spinnet",
+      "name" : "Spinnet",
+      "number" : 103,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "shade",
+        "grove"
+      ],
+      "flavor" : "Weaves webs that catch bad dreams. Moss and mushrooms grow on its back while it waits.",
+      "id" : "gloomweaver",
+      "name" : "Gloomweaver",
+      "number" : 104,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "evolvesAt" : 28,
+      "evolvesInto" : "Inkraken",
+      "flavor" : "Leaves little ink footprints across every page it walks on. It's trying to write something.",
+      "id" : "inklet",
+      "name" : "Inklet",
+      "number" : 105,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "shade",
+        "tide"
+      ],
+      "flavor" : "Its ink clouds are so dark that light gets lost in them. Sailors tell stories, all of them true.",
+      "id" : "inkraken",
+      "name" : "Inkraken",
+      "number" : 106,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "flavor" : "Turns up at shop and package codes. Nobody remembers ordering it, and it was never returned.",
+      "id" : "parcelgeist",
+      "name" : "Parcelgeist",
+      "number" : 107,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "shade",
+        "prism"
+      ],
+      "flavor" : "Lives where sunlight never reaches. Its lure glows in colors nobody has names for.",
+      "id" : "lurelight",
+      "name" : "Lurelight",
+      "number" : 108,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "evolvesAt" : 20,
+      "evolvesInto" : "Gleamlet",
+      "flavor" : "Splits sunlight into rainbows to talk. Groups of them are mistaken for disco balls.",
+      "id" : "prismite",
+      "name" : "Prismite",
+      "number" : 109,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "evolvesAt" : 36,
+      "evolvesInto" : "Lumenox",
+      "flavor" : "Its crystal spots catch the morning light. It's shy, but it always comes back.",
+      "id" : "gleamfawn",
+      "name" : "Gleamlet",
+      "number" : 110,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "flavor" : "Its crystal antlers hum a single clear note. Lost travelers follow its glow home.",
+      "id" : "lumenox",
+      "name" : "Lumenox",
+      "number" : 111,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "evolvesAt" : 14,
+      "evolvesInto" : "Chrysalux",
+      "flavor" : "Nibbles flower petals and glows the same color as whatever it ate last.",
+      "id" : "caterlux",
+      "name" : "Lumicrawl",
+      "number" : 112,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Aurorawing",
+      "flavor" : "Sleeps inside a shell of crystal, dreaming in colors. Light pours out through the cracks.",
+      "id" : "chrysalux",
+      "name" : "Chrysalux",
+      "number" : 113,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism",
+        "gale"
+      ],
+      "flavor" : "Its wings shimmer like the northern lights. Wherever it lands, the colors linger.",
+      "id" : "aurorawing",
+      "name" : "Aurorawing",
+      "number" : 114,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Pavonix",
+      "flavor" : "Practices fanning its tiny tail in shop windows. It is very pleased with what it sees.",
+      "id" : "pavlet",
+      "name" : "Pavlet",
+      "number" : 115,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "flavor" : "When it opens its tail, every eye on it glows. Crowds gather and forget why they came.",
+      "id" : "pavonix",
+      "name" : "Pavonix",
+      "number" : 116,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "evolvesAt" : 26,
+      "evolvesInto" : "Polarize",
+      "flavor" : "Carved from an ice cube and proud of it. It refuses to go anywhere warm and naps in freezers.",
+      "id" : "cubic",
+      "name" : "Cubic",
+      "number" : 117,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "prism",
+        "tide"
+      ],
+      "flavor" : "The ice crystals on its back split sunlight into rainbows. On snowy days you can see it for miles.",
+      "id" : "polarize",
+      "name" : "Polarize",
+      "number" : 118,
+      "rarity" : "common"
+    },
+    {
+      "elements" : [
+        "prism",
+        "spark"
+      ],
+      "flavor" : "A pet projected from an app nobody remembers installing. It flickers when it's nervous.",
+      "id" : "holobit",
+      "name" : "Holobit",
+      "number" : 119,
+      "rarity" : "uncommon"
+    },
+    {
+      "elements" : [
+        "prism",
+        "shade"
+      ],
+      "flavor" : "A hand mirror with a mind of its own. It shows you as you'd like to be, which is very kind of it.",
+      "id" : "reflectra",
+      "name" : "Reflectra",
+      "number" : 120,
+      "rarity" : "rare"
+    },
+    {
+      "elements" : [
+        "blaze",
+        "gale"
+      ],
+      "flavor" : "A blaze of noon on wings of fire. It circles above stadiums and festivals while the crowd is loudest.",
+      "id" : "solarch",
+      "name" : "Solarch",
+      "number" : 121,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near events & tickets at midday or dusk, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "tide",
+        "stone"
+      ],
+      "flavor" : "An ancient tide that carries a sunken island on its back. The sea rises wherever it surfaces.",
+      "id" : "tidalisk",
+      "name" : "Tidalisk",
+      "number" : 122,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near waterside at dawn, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "grove",
+        "shade"
+      ],
+      "flavor" : "The old forest's keeper. Its antlers bloom with light, and fireflies gather wherever it rests.",
+      "id" : "sylvanox",
+      "name" : "Sylvanox",
+      "number" : 123,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near parks & gardens at dusk or night, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "spark",
+        "gale"
+      ],
+      "flavor" : "A storm with a serpent's shape. It is said to swim through the city's cables at night, lighting them up.",
+      "id" : "arcwyrm",
+      "name" : "Arcwyrm",
+      "number" : 124,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near apps & tech and wi-fi codes at night, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "stone",
+        "grove"
+      ],
+      "flavor" : "A range of mountains walks on its back. Where it lies down to sleep, maps have to be redrawn.",
+      "id" : "gaiadon",
+      "name" : "Gaiadon",
+      "number" : 125,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near map pins & places and travel at midday, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "gale",
+        "tide"
+      ],
+      "flavor" : "Rides the edge of every storm that crosses the ocean. Travelers who spot it from shore make a wish.",
+      "id" : "tempestra",
+      "name" : "Tempestra",
+      "number" : 126,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near travel at dawn or dusk, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "shade",
+        "prism"
+      ],
+      "flavor" : "A shadow that carries an eclipse on its back. When it calls, every streetlight in the city dims.",
+      "id" : "umbralis",
+      "name" : "Umbralis",
+      "number" : 127,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near cryptic codes and websites at night, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "prism",
+        "gale"
+      ],
+      "flavor" : "Glides above concerts and fireworks on wings of light. Every color in the show is borrowed from it.",
+      "id" : "prismara",
+      "name" : "Prismara",
+      "number" : 128,
+      "rarity" : "legendary",
+      "rumor" : "Spotted near events & tickets and video & music at dusk, by trainers of rank 15 and up. It never stays in one place."
+    },
+    {
+      "elements" : [
+        "prism",
+        "shade"
+      ],
+      "flavor" : "Born from a corrupted code that was scanned a million times. It surfaces only where the signal is weakest.",
+      "id" : "glitchbit",
+      "name" : "Glitchbit",
+      "number" : 129,
+      "rarity" : "mythic",
+      "rumor" : "They say it only surfaces from broken codes, when every clock reads 3."
+    },
+    {
+      "elements" : [
+        "prism",
+        "gale"
+      ],
+      "flavor" : "Said to be the first code ever scanned, still waiting to be read. Its three finder squares never stop turning.",
+      "id" : "omnicode",
+      "name" : "Omnicode",
+      "number" : 130,
+      "rarity" : "mythic",
+      "rumor" : "Some say it waits for a trainer who has found every kind of code."
+    },
+    {
+      "elements" : [
+        "shade",
+        "gale"
+      ],
+      "flavor" : "An echo of every visit to the same place. Return often enough, and one day it will be waiting.",
+      "id" : "echoveil",
+      "name" : "Echoveil",
+      "number" : 131,
+      "rarity" : "mythic",
+      "rumor" : "It answers only those who return to the same code, day after day, for a week."
+    }
+  ],
+  "elements" : [
+    {
+      "color" : "#FF6B2C",
+      "id" : "blaze",
+      "name" : "Blaze"
+    },
+    {
+      "color" : "#2F8CFF",
+      "id" : "tide",
+      "name" : "Tide"
+    },
+    {
+      "color" : "#3FBF5A",
+      "id" : "grove",
+      "name" : "Grove"
+    },
+    {
+      "color" : "#FFD23F",
+      "id" : "spark",
+      "name" : "Spark"
+    },
+    {
+      "color" : "#A67C52",
+      "id" : "stone",
+      "name" : "Stone"
+    },
+    {
+      "color" : "#8FE3F0",
+      "id" : "gale",
+      "name" : "Gale"
+    },
+    {
+      "color" : "#7B4BD6",
+      "id" : "shade",
+      "name" : "Shade"
+    },
+    {
+      "color" : "#FF7AD9",
+      "id" : "prism",
+      "name" : "Prism"
+    }
+  ],
+  "events" : {
+    "featuredRotation" : [
+      "food",
+      "social",
+      "wifi",
+      "media",
+      "shop",
+      "nature",
+      "event",
+      "tech",
+      "place",
+      "web",
+      "product",
+      "travel"
+    ],
+    "monthlyElements" : [
+      "prism",
+      "stone",
+      "gale",
+      "grove",
+      "tide",
+      "spark",
+      "blaze",
+      "tide",
+      "gale",
+      "shade",
+      "stone",
+      "prism"
+    ]
+  },
+  "habitats" : [
+    {
+      "elements" : [
+        "spark"
+      ],
+      "id" : "wifi",
+      "lore" : "Spark Codekin gather here.",
+      "name" : "Wi-Fi codes",
+      "oneCode" : "a Wi-Fi code"
+    },
+    {
+      "elements" : [
+        "blaze"
+      ],
+      "id" : "food",
+      "lore" : "Blaze Codekin gather here.",
+      "name" : "Menus & food",
+      "oneCode" : "a menu or food code"
+    },
+    {
+      "elements" : [
+        "grove"
+      ],
+      "id" : "nature",
+      "lore" : "Grove Codekin live here, and healing springs bubble up.",
+      "name" : "Parks & gardens",
+      "oneCode" : "a park or garden code"
+    },
+    {
+      "elements" : [
+        "tide"
+      ],
+      "id" : "water",
+      "lore" : "Tide Codekin live here, and healing springs bubble up.",
+      "name" : "Waterside",
+      "oneCode" : "a waterside code"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "id" : "media",
+      "lore" : "Shade Codekin gather here.",
+      "name" : "Video & music",
+      "oneCode" : "a video or music link"
+    },
+    {
+      "elements" : [
+        "prism",
+        "gale"
+      ],
+      "id" : "social",
+      "lore" : "Prism and Gale Codekin gather here.",
+      "name" : "Social links",
+      "oneCode" : "a social link"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "id" : "shop",
+      "lore" : "Prism Codekin gather here.",
+      "name" : "Shops",
+      "oneCode" : "a shop code"
+    },
+    {
+      "elements" : [
+        "spark"
+      ],
+      "id" : "tech",
+      "lore" : "Spark Codekin gather here.",
+      "name" : "Apps & tech",
+      "oneCode" : "an app or tech code"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "id" : "travel",
+      "lore" : "Gale Codekin gather here.",
+      "name" : "Travel",
+      "oneCode" : "a travel code"
+    },
+    {
+      "elements" : [
+        "shade"
+      ],
+      "id" : "event",
+      "lore" : "Rival trainers gather wherever there's a crowd.",
+      "name" : "Events & tickets",
+      "oneCode" : "an event or ticket code"
+    },
+    {
+      "elements" : [
+
+      ],
+      "id" : "payment",
+      "lore" : "Rare Codekin and treasure hide behind pay codes.",
+      "name" : "Pay codes",
+      "oneCode" : "a pay code"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "id" : "place",
+      "lore" : "Stone Codekin gather here.",
+      "name" : "Map pins & places",
+      "oneCode" : "a map pin or place code"
+    },
+    {
+      "elements" : [
+        "gale"
+      ],
+      "id" : "message",
+      "lore" : "Gale Codekin gather here.",
+      "name" : "Call & message codes",
+      "oneCode" : "a call or message code"
+    },
+    {
+      "elements" : [
+        "prism"
+      ],
+      "id" : "contact",
+      "lore" : "Prism Codekin gather here.",
+      "name" : "Contact cards",
+      "oneCode" : "a contact card"
+    },
+    {
+      "elements" : [
+        "stone"
+      ],
+      "id" : "product",
+      "lore" : "Stone Codekin gather here.",
+      "name" : "Serial numbers",
+      "oneCode" : "a serial-number code"
+    },
+    {
+      "elements" : [
+        "shade",
+        "prism"
+      ],
+      "id" : "cryptic",
+      "lore" : "Something glitchy stirs in the noise.",
+      "name" : "Cryptic codes",
+      "oneCode" : "a cryptic code"
+    },
+    {
+      "elements" : [
+
+      ],
+      "id" : "web",
+      "lore" : "Every site and message has its own residents.",
+      "name" : "Websites",
+      "oneCode" : "a website code"
+    },
+    {
+      "elements" : [
+
+      ],
+      "id" : "note",
+      "lore" : "Every site and message has its own residents.",
+      "name" : "Text notes",
+      "oneCode" : "a text-note code"
+    }
+  ]
+}
