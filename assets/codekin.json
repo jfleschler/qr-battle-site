@@ -1,87 +1,449 @@
 {
   "codekin" : [
     {
+      "chain" : [
+        "emberkit",
+        "blazefang",
+        "pyrevix"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 16,
       "evolvesInto" : "Blazefang",
       "flavor" : "A spark that climbed out of a café menu and refused to go out. Its crest flickers brighter whenever someone scans nearby.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "emberkit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "ember"
+        },
+        {
+          "level" : 9,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 13,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 18,
+          "move" : "kindle"
+        },
+        {
+          "level" : 22,
+          "move" : "scorch"
+        },
+        {
+          "level" : 27,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 33,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 40,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Emberkit",
       "number" : 1,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "emberkit",
+        "blazefang",
+        "pyrevix"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Pyrevix",
       "flavor" : "Its flame horns curl forward when it's ready to battle. Codes it guards stay warm to the touch.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "blazefang",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "ember"
+        },
+        {
+          "level" : 9,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 13,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 29,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 35,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Blazefang",
       "number" : 2,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "emberkit",
+        "blazefang",
+        "pyrevix"
+      ],
       "elements" : [
         "blaze"
       ],
       "flavor" : "When it spreads its wings of fire, the whole block glows. It only lands on codes scanned a thousand times.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "pyrevix",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "ember"
+        },
+        {
+          "level" : 9,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 13,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 29,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 34,
+          "move" : "magma_slam"
+        },
+        {
+          "level" : 40,
+          "move" : "meteor_flare"
+        },
+        {
+          "level" : 46,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Pyrevix",
       "number" : 3,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "driplet",
+        "tidewyrm",
+        "leviathorn"
+      ],
       "elements" : [
         "tide"
       ],
       "evolvesAt" : 16,
       "evolvesInto" : "Tidewyrm",
       "flavor" : "A drop of water that learned to hold its shape. It leaves tiny wet footprints on every code it visits.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "driplet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "bubble"
+        },
+        {
+          "level" : 9,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 13,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 18,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 22,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 27,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 34,
+          "move" : "recover"
+        },
+        {
+          "level" : 41,
+          "move" : "torrent"
+        }
+      ],
       "name" : "Driplet",
       "number" : 4,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "driplet",
+        "tidewyrm",
+        "leviathorn"
+      ],
       "elements" : [
         "tide"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Leviathorn",
       "flavor" : "Wears a breaking wave like a hood, and can hold it for hours without spilling a drop.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "tidewyrm",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "bubble"
+        },
+        {
+          "level" : 9,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 13,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "screech"
+        },
+        {
+          "level" : 26,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 31,
+          "move" : "recover"
+        },
+        {
+          "level" : 38,
+          "move" : "torrent"
+        },
+        {
+          "level" : 44,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Tidewyrm",
       "number" : 5,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "driplet",
+        "tidewyrm",
+        "leviathorn"
+      ],
       "elements" : [
         "tide",
         "shade"
       ],
       "flavor" : "A whirlpool turns around its waist wherever it goes. Fountains rise to greet it.",
+      "habitats" : [
+        "water",
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "leviathorn",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "bubble"
+        },
+        {
+          "level" : 9,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 13,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "screech"
+        },
+        {
+          "level" : 26,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 31,
+          "move" : "recover"
+        },
+        {
+          "level" : 34,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 38,
+          "move" : "torrent"
+        },
+        {
+          "level" : 42,
+          "move" : "geyser"
+        },
+        {
+          "level" : 48,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Leviathorn",
       "number" : 6,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "sproutle",
+        "thornback",
+        "arborok"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 16,
       "evolvesInto" : "Thornback",
       "flavor" : "A seed of light that sprouted from a garden-center code. Its leaves follow the sun, or your phone's flashlight.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "sproutle",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 9,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 12,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 14,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 19,
+          "move" : "harden"
+        },
+        {
+          "level" : 23,
+          "move" : "giga_drain"
+        },
+        {
+          "level" : 28,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 34,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Sproutle",
       "number" : 7,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "sproutle",
+        "thornback",
+        "arborok"
+      ],
       "elements" : [
         "grove",
         "stone"
@@ -89,137 +451,739 @@
       "evolvesAt" : 34,
       "evolvesInto" : "Arborok",
       "flavor" : "Grows a new thorn for every code it outgrows. The leaves on its back rustle when it's pleased.",
+      "habitats" : [
+        "nature",
+        "place",
+        "product"
+      ],
       "id" : "thornback",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 9,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 12,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 14,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 22,
+          "move" : "giga_drain"
+        },
+        {
+          "level" : 26,
+          "move" : "fortify"
+        },
+        {
+          "level" : 31,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 36,
+          "move" : "solar_burst"
+        },
+        {
+          "level" : 43,
+          "move" : "quake"
+        }
+      ],
       "name" : "Thornback",
       "number" : 8,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "sproutle",
+        "thornback",
+        "arborok"
+      ],
       "elements" : [
         "grove",
         "stone"
       ],
       "flavor" : "Roots itself beside a code and grows a canopy overhead. Smaller elementals nap in its shade.",
+      "habitats" : [
+        "nature",
+        "place",
+        "product"
+      ],
       "id" : "arborok",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 9,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 12,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 14,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 22,
+          "move" : "giga_drain"
+        },
+        {
+          "level" : 26,
+          "move" : "fortify"
+        },
+        {
+          "level" : 31,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 34,
+          "move" : "bark_skin"
+        },
+        {
+          "level" : 38,
+          "move" : "solar_burst"
+        },
+        {
+          "level" : 44,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Arborok",
       "number" : 9,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "chilibean",
+        "habanerok",
+        "scovillain"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 18,
       "evolvesInto" : "Habanerok",
       "flavor" : "A pepper-shaped flame that lives in takeout menus. It hiccups sparks when it's surprised.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "chilibean",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        }
+      ],
       "name" : "Chilibean",
       "number" : 10,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "chilibean",
+        "habanerok",
+        "scovillain"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Capsicrown",
       "flavor" : "Glows like a paper lantern stuffed with heat. It challenges hot sauce bottles and always wins.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "habanerok",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 18,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "magma_slam"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Habanerok",
       "number" : 11,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "chilibean",
+        "habanerok",
+        "scovillain"
+      ],
       "elements" : [
         "blaze"
       ],
       "flavor" : "Crowns itself ruler of every spice rack it finds. Its cape of flame trails sparks on the way out.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "scovillain",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 18,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "magma_slam"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        },
+        {
+          "level" : 46,
+          "move" : "meteor_flare"
+        }
+      ],
       "name" : "Capsicrown",
       "number" : 12,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "sizzlet",
+        "salamblaze",
+        "scaldrake"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Frillflare",
       "flavor" : "Its tail flame sputters when it's sad and roars back when it's happy. Warm laptops are its favorite bed.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "sizzlet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        }
+      ],
       "name" : "Sizzlet",
       "number" : 13,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "sizzlet",
+        "salamblaze",
+        "scaldrake"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 36,
       "evolvesInto" : "Scaldwing",
       "flavor" : "Fans out its frills of flame when it's excited, which is most of the time.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "salamblaze",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Frillflare",
       "number" : 14,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "sizzlet",
+        "salamblaze",
+        "scaldrake"
+      ],
       "elements" : [
         "blaze",
         "gale"
       ],
       "flavor" : "Rides the heat rising off rooftops and chimneys. Its cry sounds like a kettle about to boil.",
+      "habitats" : [
+        "food",
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "scaldrake",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        },
+        {
+          "level" : 46,
+          "move" : "meteor_flare"
+        }
+      ],
       "name" : "Scaldwing",
       "number" : 15,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "brewbie",
+        "espressaur"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Mochaflare",
       "flavor" : "Floats in a cup of its own making and steams gently. It only turns up at café codes.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "brewbie",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        }
+      ],
       "name" : "Brewbie",
       "number" : 16,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "brewbie",
+        "espressaur"
+      ],
       "elements" : [
         "blaze",
         "tide"
       ],
       "flavor" : "Roasts coffee beans along its back all day. By evening the whole street smells wonderful.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "espressaur",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Mochaflare",
       "number" : 17,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "matchlet",
+        "flarebrand"
+      ],
       "elements" : [
         "blaze"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Flarebrand",
       "flavor" : "A matchstick of living flame. It flares up when startled and dims around puddles.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "matchlet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 18,
+          "move" : "heat_haze"
+        }
+      ],
       "name" : "Matchlet",
       "number" : 18,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "matchlet",
+        "flarebrand"
+      ],
       "elements" : [
         "blaze"
       ],
       "flavor" : "Carries a torch that has never gone out, lighting the way for anyone lost after dark.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "flarebrand",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 18,
+          "move" : "heat_haze"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "magma_slam"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Flarebrand",
       "number" : 19,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "kilnkin",
+        "furnox"
+      ],
       "elements" : [
         "blaze",
         "stone"
@@ -227,79 +1191,418 @@
       "evolvesAt" : 26,
       "evolvesInto" : "Furnox",
       "flavor" : "A clay pot with a fire inside. Hands that hold it stay warm for hours.",
+      "habitats" : [
+        "food",
+        "place",
+        "product"
+      ],
       "id" : "kilnkin",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        }
+      ],
       "name" : "Kilnkin",
       "number" : 20,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "kilnkin",
+        "furnox"
+      ],
       "elements" : [
         "blaze",
         "stone"
       ],
       "flavor" : "A walking furnace that bakes little pottery gifts. Its chimney puffs a smoke ring when it's proud.",
+      "habitats" : [
+        "food",
+        "place",
+        "product"
+      ],
       "id" : "furnox",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 26,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Furnox",
       "number" : 21,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "magmole"
+      ],
       "elements" : [
         "blaze",
         "stone"
       ],
       "flavor" : "Wears a helmet made from the first stone it ever melted through. It tunnels under parking lots for fun.",
+      "habitats" : [
+        "food",
+        "place",
+        "product"
+      ],
       "id" : "magmole",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 5,
+          "move" : "ember"
+        },
+        {
+          "level" : 10,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 15,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 20,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 26,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "quake"
+        }
+      ],
       "name" : "Magmound",
       "number" : 22,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "cinderam"
+      ],
       "elements" : [
         "blaze",
         "stone"
       ],
       "flavor" : "A cloud of cooled lava with curled horns. When it charges, the cracks glow white-hot.",
+      "habitats" : [
+        "food",
+        "place",
+        "product"
+      ],
       "id" : "cinderam",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "ember"
+        },
+        {
+          "level" : 8,
+          "move" : "scorch"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 18,
+          "move" : "magma_slam"
+        },
+        {
+          "level" : 20,
+          "move" : "kindle"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 28,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 42,
+          "move" : "inferno"
+        }
+      ],
       "name" : "Cindercurl",
       "number" : 23,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "puddlepup",
+        "sealance"
+      ],
       "elements" : [
         "tide"
       ],
       "evolvesAt" : 22,
       "evolvesInto" : "Wavelance",
       "flavor" : "Appears after rainstorms and jumps into every puddle it can find. Fountains are its favorite place.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "puddlepup",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        }
+      ],
       "name" : "Splashlet",
       "number" : 24,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "puddlepup",
+        "sealance"
+      ],
       "elements" : [
         "tide"
       ],
       "flavor" : "Cuts through the water with a lance of pure current. It balances beach balls on the tip for fun.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "sealance",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 22,
+          "move" : "riptide"
+        },
+        {
+          "level" : 26,
+          "move" : "chill_spray"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "torrent"
+        },
+        {
+          "level" : 46,
+          "move" : "geyser"
+        }
+      ],
       "name" : "Wavelance",
       "number" : 25,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "bubblet",
+        "jellumina",
+        "medusire"
+      ],
       "elements" : [
         "tide"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Jellumina",
       "flavor" : "Floats out of fountains and soap dispensers. If it laughs too hard it pops, then reforms a moment later.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "bubblet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "zap"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        }
+      ],
       "name" : "Bubblet",
       "number" : 26,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "bubblet",
+        "jellumina",
+        "medusire"
+      ],
       "elements" : [
         "tide",
         "spark"
@@ -307,35 +1610,185 @@
       "evolvesAt" : 36,
       "evolvesInto" : "Medusire",
       "flavor" : "Drifts over harbors at night, flickering like a lantern. Its sting tickles more than it hurts.",
+      "habitats" : [
+        "wifi",
+        "water",
+        "tech"
+      ],
       "id" : "jellumina",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "zap"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Jellumina",
       "number" : 27,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "bubblet",
+        "jellumina",
+        "medusire"
+      ],
       "elements" : [
         "tide",
         "spark"
       ],
       "flavor" : "Rules a glittering swarm of jellies. When it crackles, every streetlight along the pier blinks.",
+      "habitats" : [
+        "wifi",
+        "water",
+        "tech"
+      ],
       "id" : "medusire",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "zap"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 42,
+          "move" : "torrent"
+        },
+        {
+          "level" : 46,
+          "move" : "geyser"
+        }
+      ],
       "name" : "Medusire",
       "number" : 28,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "shellby",
+        "capcrab",
+        "capitan"
+      ],
       "elements" : [
         "tide"
       ],
       "evolvesAt" : 18,
       "evolvesInto" : "Capstone",
       "flavor" : "Carries a spiral shell from a beach-shop code. It hides inside when strangers scan it.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "shellby",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        }
+      ],
       "name" : "Shellby",
       "number" : 29,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "shellby",
+        "capcrab",
+        "capitan"
+      ],
       "elements" : [
         "tide",
         "stone"
@@ -343,46 +1796,267 @@
       "evolvesAt" : 36,
       "evolvesInto" : "Capitan",
       "flavor" : "Wears a stone cap it carved itself and won't take it off, not even to sleep.",
+      "habitats" : [
+        "water",
+        "place",
+        "product"
+      ],
       "id" : "capcrab",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 18,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        }
+      ],
       "name" : "Capstone",
       "number" : 30,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "shellby",
+        "capcrab",
+        "capitan"
+      ],
       "elements" : [
         "tide",
         "stone"
       ],
       "flavor" : "Gives orders to every tide pool in a booming voice. Its big claw can crack a coconut.",
+      "habitats" : [
+        "water",
+        "place",
+        "product"
+      ],
       "id" : "capitan",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 18,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 42,
+          "move" : "torrent"
+        },
+        {
+          "level" : 44,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Capitan",
       "number" : 31,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "clamber",
+        "pearlord"
+      ],
       "elements" : [
         "tide"
       ],
       "evolvesAt" : 28,
       "evolvesInto" : "Pearlord",
       "flavor" : "Peeks out of its shell to see who scanned it, then snaps shut if they look too eager.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "clamber",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        }
+      ],
       "name" : "Clamber",
       "number" : 32,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "clamber",
+        "pearlord"
+      ],
       "elements" : [
         "tide",
         "prism"
       ],
       "flavor" : "Every pearl it grows holds a reflection of the day it was made. It keeps them all orbiting close.",
+      "habitats" : [
+        "water",
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "pearlord",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "torrent"
+        },
+        {
+          "level" : 46,
+          "move" : "geyser"
+        }
+      ],
       "name" : "Pearlord",
       "number" : 33,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "frogurt",
+        "toadstorm"
+      ],
       "elements" : [
         "tide",
         "grove"
@@ -390,104 +2064,549 @@
       "evolvesAt" : 24,
       "evolvesInto" : "Drizzlord",
       "flavor" : "Wears a lily pad for a hat and hums at the start of every shower.",
+      "habitats" : [
+        "nature",
+        "water"
+      ],
       "id" : "frogurt",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 10,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        }
+      ],
       "name" : "Lilyplop",
       "number" : 34,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "frogurt",
+        "toadstorm"
+      ],
       "elements" : [
         "tide",
         "gale"
       ],
       "flavor" : "The little raincloud above it follows it everywhere. When it sulks, the cloud starts to drizzle.",
+      "habitats" : [
+        "water",
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "toadstorm",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 10,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "torrent"
+        }
+      ],
       "name" : "Drizzlord",
       "number" : 35,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "koiden"
+      ],
       "elements" : [
         "tide",
         "prism"
       ],
       "flavor" : "Leaps up fountains at first light. Whoever sees its fins catch the sun has luck all day.",
+      "habitats" : [
+        "water"
+      ],
       "id" : "koiden",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "bubble"
+        },
+        {
+          "level" : 8,
+          "move" : "mist_veil"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 20,
+          "move" : "aqua_jet"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "torrent"
+        },
+        {
+          "level" : 46,
+          "move" : "geyser"
+        }
+      ],
       "name" : "Glimmerfin",
       "number" : 36,
       "rarity" : "epic"
     },
     {
+      "chain" : [
+        "mossnail",
+        "moorshell"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Moorshell",
       "flavor" : "Carries a tiny garden on its spiral shell. It is never in a hurry, about anything, ever.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "mossnail",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        }
+      ],
       "name" : "Mosscurl",
       "number" : 37,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "mossnail",
+        "moorshell"
+      ],
       "elements" : [
         "grove",
         "tide"
       ],
       "flavor" : "Carries a little pond on its back, cattails and all. Dragonflies follow it across the park.",
+      "habitats" : [
+        "nature",
+        "water"
+      ],
       "id" : "moorshell",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Moorshell",
       "number" : 38,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "sporelet",
+        "shroomble",
+        "mycelord"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 18,
       "evolvesInto" : "Shroomble",
       "flavor" : "Pops up overnight after rain. Pat its cap and it puffs out a sleepy cloud of glowing spores.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "sporelet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        }
+      ],
       "name" : "Sporelet",
       "number" : 39,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "sporelet",
+        "shroomble",
+        "mycelord"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Mycelord",
       "flavor" : "Smaller mushrooms keep sprouting on its shoulders. It's very proud of them.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "shroomble",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 18,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        }
+      ],
       "name" : "Shroomble",
       "number" : 40,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "sporelet",
+        "shroomble",
+        "mycelord"
+      ],
       "elements" : [
         "grove",
         "shade"
       ],
       "flavor" : "Its roots reach under the whole park. It knows the moment anyone steps off the path.",
+      "habitats" : [
+        "nature",
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "mycelord",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 18,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 34,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        },
+        {
+          "level" : 44,
+          "move" : "soul_sap"
+        }
+      ],
       "name" : "Mycelord",
       "number" : 41,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "budling",
+        "blossomire",
+        "florabelle"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 16,
       "evolvesInto" : "Blossomire",
       "flavor" : "Keeps its petals closed until it trusts you. A sunny windowsill is its idea of paradise.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "budling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 14,
+          "move" : "pollen_puff"
+        }
+      ],
       "name" : "Budling",
       "number" : 42,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "budling",
+        "blossomire",
+        "florabelle"
+      ],
       "elements" : [
         "grove",
         "prism"
@@ -495,364 +2614,2007 @@
       "evolvesAt" : 32,
       "evolvesInto" : "Florabelle",
       "flavor" : "Flits between flower boxes leaving a trail of sparkles. Bees think it's the best flower in town.",
+      "habitats" : [
+        "nature",
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "blossomire",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 14,
+          "move" : "pollen_puff"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        }
+      ],
       "name" : "Blossomire",
       "number" : 43,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "budling",
+        "blossomire",
+        "florabelle"
+      ],
       "elements" : [
         "grove",
         "prism"
       ],
       "flavor" : "Dances in public gardens at dawn. Wherever its petal skirt brushes the ground, flowers open.",
+      "habitats" : [
+        "nature",
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "florabelle",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 14,
+          "move" : "pollen_puff"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Florabelle",
       "number" : 44,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "leaflit",
+        "mantleaf"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 22,
       "evolvesInto" : "Scytheleaf",
       "flavor" : "Looks like a fallen leaf until the wind blows the others away and it stays put.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "leaflit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        }
+      ],
       "name" : "Leaflit",
       "number" : 45,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "leaflit",
+        "mantleaf"
+      ],
       "elements" : [
         "grove",
         "gale"
       ],
       "flavor" : "Its arms are as sharp as grass blades. It bows politely before every battle.",
+      "habitats" : [
+        "nature",
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "mantleaf",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 22,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Scytheleaf",
       "number" : 46,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "prickit",
+        "saguardian"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 26,
       "evolvesInto" : "Saguardian",
       "flavor" : "A ball of thorns that only wants a hug. Very few people are brave enough.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "prickit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 10,
+          "move" : "thorn_jab"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        }
+      ],
       "name" : "Prickit",
       "number" : 47,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "prickit",
+        "saguardian"
+      ],
       "elements" : [
         "grove",
         "stone"
       ],
       "flavor" : "Stands guard with its arms raised for days at a time. Lost hikers use it as a landmark.",
+      "habitats" : [
+        "nature",
+        "place",
+        "product"
+      ],
       "id" : "saguardian",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 10,
+          "move" : "thorn_jab"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 26,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Saguardian",
       "number" : 48,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "pumpkid",
+        "gourdian"
+      ],
       "elements" : [
         "grove"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Gourdian",
       "flavor" : "Only comes out once the sun is low. It rolls downhill on purpose and giggles the whole way.",
+      "habitats" : [
+        "nature"
+      ],
       "id" : "pumpkid",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "ember"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        }
+      ],
       "name" : "Pumpkid",
       "number" : 49,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "pumpkid",
+        "gourdian"
+      ],
       "elements" : [
         "grove",
         "blaze"
       ],
       "flavor" : "Walks the streets at night with a candle burning in its head, lighting the way home.",
+      "habitats" : [
+        "food",
+        "nature"
+      ],
       "id" : "gourdian",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "ember"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "flame_wheel"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "blaze_burst"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Gourdian",
       "number" : 50,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "matchamew"
+      ],
       "elements" : [
         "grove"
       ],
       "flavor" : "Curls up beside tea menus. Its tail froths like a whisk and smells faintly of matcha.",
+      "habitats" : [
+        "food"
+      ],
       "id" : "matchamew",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 8,
+          "move" : "spore_cloud"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 18,
+          "move" : "pollen_puff"
+        },
+        {
+          "level" : 20,
+          "move" : "photosynth"
+        },
+        {
+          "level" : 24,
+          "move" : "thorn_jab"
+        },
+        {
+          "level" : 28,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "solar_burst"
+        }
+      ],
       "name" : "Matchawisp",
       "number" : 51,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "zapling",
+        "voltusk",
+        "tuskstorm"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 18,
       "evolvesInto" : "Voltusk",
       "flavor" : "Gathers around Wi-Fi routers to snack on stray signals. Its antennae crackle when it sneezes.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "zapling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 12,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 22,
+          "move" : "overclock"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 36,
+          "move" : "volt_crash"
+        }
+      ],
       "name" : "Zapling",
       "number" : 52,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "zapling",
+        "voltusk",
+        "tuskstorm"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 36,
       "evolvesInto" : "Tuskstorm",
       "flavor" : "Charges so fast it leaves the smell of a thunderstorm behind. Streetlights flicker as it passes.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "voltusk",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 12,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 21,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 25,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 29,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 35,
+          "move" : "focus"
+        },
+        {
+          "level" : 41,
+          "move" : "volt_crash"
+        }
+      ],
       "name" : "Voltusk",
       "number" : 53,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "zapling",
+        "voltusk",
+        "tuskstorm"
+      ],
       "elements" : [
         "spark"
       ],
       "flavor" : "When a group of them races by, the sky answers with thunder. Its tusks hum like power lines.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "tuskstorm",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 12,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 21,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 25,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 29,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 35,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "ion_beam"
+        },
+        {
+          "level" : 40,
+          "move" : "volt_crash"
+        },
+        {
+          "level" : 46,
+          "move" : "short_circuit"
+        }
+      ],
       "name" : "Tuskstorm",
       "number" : 54,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "sparkgrub",
+        "flickerfly"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Flickerwisp",
       "flavor" : "Naps under porch lights. Its tail glows brighter the more power it has sipped.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "sparkgrub",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        }
+      ],
       "name" : "Sparkcoil",
       "number" : 55,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "sparkgrub",
+        "flickerfly"
+      ],
       "elements" : [
         "spark",
         "gale"
       ],
       "flavor" : "Drawn to screens and porch lights. The spots on its wings blink in patterns nobody can decode.",
+      "habitats" : [
+        "wifi",
+        "social",
+        "tech",
+        "travel",
+        "message"
+      ],
       "id" : "flickerfly",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "short_circuit"
+        }
+      ],
       "name" : "Flickerwisp",
       "number" : 56,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "plugpup",
+        "wattweiler"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Wattwarden",
       "flavor" : "Plugs its tail into the wall when it's tired. It wiggles so hard the lights flicker.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "plugpup",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        }
+      ],
       "name" : "Pluglet",
       "number" : 57,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "plugpup",
+        "wattweiler"
+      ],
       "elements" : [
         "spark",
         "shade"
       ],
       "flavor" : "Guards server rooms at night. Its collar crackles a warning before it ever has to fight.",
+      "habitats" : [
+        "wifi",
+        "media",
+        "tech",
+        "event",
+        "cryptic"
+      ],
       "id" : "wattweiler",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 42,
+          "move" : "short_circuit"
+        }
+      ],
       "name" : "Wattwarden",
       "number" : 58,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "bulblet",
+        "lampkin",
+        "filamentor"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 16,
       "evolvesInto" : "Lampkin",
       "flavor" : "Lights up whenever it has a good idea. It has a lot of good ideas.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "bulblet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        }
+      ],
       "name" : "Bulblet",
       "number" : 59,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "bulblet",
+        "lampkin",
+        "filamentor"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Filamentor",
       "flavor" : "Wears a lampshade at a jaunty angle and reads by its own light long after bedtime.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "lampkin",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 30,
+          "move" : "spark_shower"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Lampkin",
       "number" : 60,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "bulblet",
+        "lampkin",
+        "filamentor"
+      ],
       "elements" : [
         "spark",
         "prism"
       ],
       "flavor" : "Floats above ballrooms and theaters. Its crystals scatter rainbows across every wall.",
+      "habitats" : [
+        "wifi",
+        "social",
+        "shop",
+        "tech",
+        "contact",
+        "cryptic"
+      ],
       "id" : "filamentor",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 30,
+          "move" : "spark_shower"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 34,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "short_circuit"
+        }
+      ],
       "name" : "Filamentor",
       "number" : 61,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "gizmite",
+        "gearhulk"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 26,
       "evolvesInto" : "Gearhulk",
       "flavor" : "Winds itself up every morning. If its key stops turning, it sits and waits for help.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "gizmite",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        }
+      ],
       "name" : "Gizmite",
       "number" : 62,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "gizmite",
+        "gearhulk"
+      ],
       "elements" : [
         "spark",
         "stone"
       ],
       "flavor" : "A clockwork giant of stone and brass. Its chest gear ticks steadily, like a heartbeat.",
+      "habitats" : [
+        "wifi",
+        "tech",
+        "place",
+        "product"
+      ],
       "id" : "gearhulk",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 26,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 42,
+          "move" : "short_circuit"
+        }
+      ],
       "name" : "Gearhulk",
       "number" : 63,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "spikit",
+        "quillvolt"
+      ],
       "elements" : [
         "spark"
       ],
       "evolvesAt" : 22,
       "evolvesInto" : "Quillvolt",
       "flavor" : "Its copper quills catch static from carpets. Petting it is a shocking experience.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "spikit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        }
+      ],
       "name" : "Spikit",
       "number" : 64,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "spikit",
+        "quillvolt"
+      ],
       "elements" : [
         "spark"
       ],
       "flavor" : "Climbs to rooftops in storms and raises its quills to the sky. Lightning always finds it.",
+      "habitats" : [
+        "wifi",
+        "tech"
+      ],
       "id" : "quillvolt",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 22,
+          "move" : "ion_beam"
+        },
+        {
+          "level" : 26,
+          "move" : "spark_shower"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "short_circuit"
+        },
+        {
+          "level" : 46,
+          "move" : "volt_crash"
+        }
+      ],
       "name" : "Quillvolt",
       "number" : 65,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "wifly"
+      ],
       "elements" : [
         "spark",
         "prism"
       ],
       "flavor" : "Only flutters near Wi-Fi codes. The arcs over its head show how strong the signal is.",
+      "habitats" : [
+        "wifi"
+      ],
       "id" : "wifly",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "zap"
+        },
+        {
+          "level" : 8,
+          "move" : "static_wave"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 20,
+          "move" : "overclock"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "short_circuit"
+        }
+      ],
       "name" : "Wifly",
       "number" : 66,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "pebblit",
+        "bouldron",
+        "colossite"
+      ],
       "elements" : [
         "stone"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Bouldron",
       "flavor" : "Mistaken for a garden rock until it waddles off. It polishes its crystal every morning.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "pebblit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 5,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 10,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 15,
+          "move" : "fortify"
+        },
+        {
+          "level" : 20,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 26,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 34,
+          "move" : "quake"
+        }
+      ],
       "name" : "Pebblit",
       "number" : 67,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "pebblit",
+        "bouldron",
+        "colossite"
+      ],
       "elements" : [
         "stone"
       ],
       "evolvesAt" : 36,
       "evolvesInto" : "Colossite",
       "flavor" : "Ancient crystals grow along its back. A single stomp registers on earthquake sensors.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "bouldron",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 5,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 10,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 15,
+          "move" : "fortify"
+        },
+        {
+          "level" : 20,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 23,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 28,
+          "move" : "focus"
+        },
+        {
+          "level" : 34,
+          "move" : "quake"
+        },
+        {
+          "level" : 40,
+          "move" : "screech"
+        }
+      ],
       "name" : "Bouldron",
       "number" : 68,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "pebblit",
+        "bouldron",
+        "colossite"
+      ],
       "elements" : [
         "stone"
       ],
       "flavor" : "Sleeps for years at a time and wakes up as a new hill. The crystal in its chest still glows.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "colossite",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 5,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 10,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 15,
+          "move" : "fortify"
+        },
+        {
+          "level" : 20,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 23,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 28,
+          "move" : "focus"
+        },
+        {
+          "level" : 34,
+          "move" : "quake"
+        },
+        {
+          "level" : 36,
+          "move" : "stone_spike"
+        },
+        {
+          "level" : 42,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 48,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Colossite",
       "number" : 69,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "shardlet",
+        "quartzel",
+        "amethrone"
+      ],
       "elements" : [
         "stone"
       ],
       "evolvesAt" : 18,
       "evolvesInto" : "Quartzel",
       "flavor" : "Looks like a plain rock until it sneezes and its crystals ring like little bells.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "shardlet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        }
+      ],
       "name" : "Shardlet",
       "number" : 70,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "shardlet",
+        "quartzel",
+        "amethrone"
+      ],
       "elements" : [
         "stone"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Amethrone",
       "flavor" : "Grows a new crystal every full moon. It hums quietly while they come in.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "quartzel",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 18,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Quartzel",
       "number" : 71,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "shardlet",
+        "quartzel",
+        "amethrone"
+      ],
       "elements" : [
         "stone",
         "prism"
       ],
       "flavor" : "Sits like royalty on a throne of its own crystals. Light passing through them turns violet.",
+      "habitats" : [
+        "social",
+        "shop",
+        "place",
+        "contact",
+        "product",
+        "cryptic"
+      ],
       "id" : "amethrone",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 18,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 34,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Amethrone",
       "number" : 72,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "rollbit",
+        "armadrillo"
+      ],
       "elements" : [
         "stone"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Drillstone",
       "flavor" : "Curls into a ball and rolls away whenever it's startled, which is often.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "rollbit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        }
+      ],
       "name" : "Rollbit",
       "number" : 73,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "rollbit",
+        "armadrillo"
+      ],
       "elements" : [
         "stone"
       ],
       "flavor" : "Bores tunnels under the city with its spinning drill. Subway crews leave it snacks.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "armadrillo",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "stone_spike"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 30,
+          "move" : "quake"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 42,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Drillstone",
       "number" : 74,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "ammolet",
+        "ammonarch"
+      ],
       "elements" : [
         "stone",
         "tide"
@@ -860,646 +4622,3232 @@
       "evolvesAt" : 30,
       "evolvesInto" : "Ammonarch",
       "flavor" : "Swam in seas that dried up long ago. Nobody knows how it woke up, least of all Ammolet.",
+      "habitats" : [
+        "water",
+        "place",
+        "product"
+      ],
       "id" : "ammolet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        }
+      ],
       "name" : "Ammolet",
       "number" : 75,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "ammolet",
+        "ammonarch"
+      ],
       "elements" : [
         "stone",
         "tide"
       ],
       "flavor" : "Its spiral shell keeps a record of every year it has lived. It has a great many years.",
+      "habitats" : [
+        "water",
+        "place",
+        "product"
+      ],
       "id" : "ammonarch",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 30,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 42,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Ammonarch",
       "number" : 76,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "stegling",
+        "stegolith"
+      ],
       "elements" : [
         "stone"
       ],
       "evolvesAt" : 26,
       "evolvesInto" : "Platelith",
       "flavor" : "Wags its plated tail so hard when it's happy that it knocks itself over.",
+      "habitats" : [
+        "place",
+        "product"
+      ],
       "id" : "stegling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "leaf_storm"
+        }
+      ],
       "name" : "Plateling",
       "number" : 77,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "stegling",
+        "stegolith"
+      ],
       "elements" : [
         "stone",
         "grove"
       ],
       "flavor" : "Moss grows on its stone plates, and small flowers in the moss. It wanders slowly through parks.",
+      "habitats" : [
+        "nature",
+        "place",
+        "product"
+      ],
       "id" : "stegolith",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 26,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 42,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Platelith",
       "number" : 78,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "gargoling"
+      ],
       "elements" : [
         "stone",
         "shade"
       ],
       "flavor" : "Perches on old buildings pretending to be a statue. At night it stretches and goes exploring.",
+      "habitats" : [
+        "media",
+        "event",
+        "place",
+        "product",
+        "cryptic"
+      ],
       "id" : "gargoling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 42,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Gargoling",
       "number" : 79,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "scarabold"
+      ],
       "elements" : [
         "stone",
         "prism"
       ],
       "flavor" : "Rolls a little ball of sunlight wherever it goes. Its shell shimmers green, then gold.",
+      "habitats" : [
+        "social",
+        "shop",
+        "place",
+        "contact",
+        "product",
+        "cryptic"
+      ],
       "id" : "scarabold",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "pebble_toss"
+        },
+        {
+          "level" : 8,
+          "move" : "fortify"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "rock_smash"
+        },
+        {
+          "level" : 18,
+          "move" : "glimmer"
+        },
+        {
+          "level" : 20,
+          "move" : "pebble_shield"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "boulder_roll"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "landslide"
+        }
+      ],
       "name" : "Sunroller",
       "number" : 80,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "gustling",
+        "cyclonix",
+        "aerogriff"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 18,
       "evolvesInto" : "Cyclonix",
       "flavor" : "Rides updrafts between rooftops. It carries messages for anyone who shares a crumb.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "gustling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "gust"
+        },
+        {
+          "level" : 9,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 13,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 18,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Gustling",
       "number" : 81,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "gustling",
+        "cyclonix",
+        "aerogriff"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 36,
       "evolvesInto" : "Galecrest",
       "flavor" : "Every beat of its wings stirs a tiny cyclone. Pilots report it racing jets for fun.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "cyclonix",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "gust"
+        },
+        {
+          "level" : 9,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 13,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 21,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 25,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 30,
+          "move" : "focus"
+        },
+        {
+          "level" : 37,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Cyclonix",
       "number" : 82,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "gustling",
+        "cyclonix",
+        "aerogriff"
+      ],
       "elements" : [
         "gale"
       ],
       "flavor" : "Patrols the skyline at sunset on enormous wings, and lands only on the tallest buildings.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "aerogriff",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 5,
+          "move" : "gust"
+        },
+        {
+          "level" : 9,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 13,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 21,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 25,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 30,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "dive_bomb"
+        },
+        {
+          "level" : 40,
+          "move" : "whirl"
+        },
+        {
+          "level" : 46,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Galecrest",
       "number" : 83,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "hootling",
+        "nocturowl"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Nocturnis",
       "flavor" : "Stays up all night and naps through the day. It can turn its head almost all the way around.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "hootling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 6,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        }
+      ],
       "name" : "Hushling",
       "number" : 84,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "hootling",
+        "nocturowl"
+      ],
       "elements" : [
         "gale",
         "shade"
       ],
       "flavor" : "Flies without a sound under the moon. The crescent on its chest glows brighter at midnight.",
+      "habitats" : [
+        "media",
+        "social",
+        "travel",
+        "event",
+        "message",
+        "cryptic"
+      ],
       "id" : "nocturowl",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 6,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Nocturnis",
       "number" : 85,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "kitelet",
+        "kitewing",
+        "dragonkite"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 16,
       "evolvesInto" : "Kitewing",
       "flavor" : "Tugs at the wind on breezy days. If you let go, it comes back by itself.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "kitelet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        }
+      ],
       "name" : "Kitelet",
       "number" : 86,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "kitelet",
+        "kitewing",
+        "dragonkite"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 34,
       "evolvesInto" : "Dragonkite",
       "flavor" : "Glides for hours on the wind off the beach, its ribbon tail snapping like applause.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "kitewing",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Kitewing",
       "number" : 87,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "kitelet",
+        "kitewing",
+        "dragonkite"
+      ],
       "elements" : [
         "gale",
         "prism"
       ],
       "flavor" : "Dances over festivals and parades. Children cheer, and it loops the crowd once more.",
+      "habitats" : [
+        "social",
+        "shop",
+        "travel",
+        "message",
+        "contact",
+        "cryptic"
+      ],
       "id" : "dragonkite",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 34,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        },
+        {
+          "level" : 46,
+          "move" : "zephyr"
+        }
+      ],
       "name" : "Dragonkite",
       "number" : 88,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "hummbit",
+        "zephyrra"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 22,
       "evolvesInto" : "Zephyrra",
       "flavor" : "Its wings beat so fast they hum a note. Each Hummbit hums a slightly different one.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "hummbit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 18,
+          "move" : "pollen_puff"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        }
+      ],
       "name" : "Hummbit",
       "number" : 89,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "hummbit",
+        "zephyrra"
+      ],
       "elements" : [
         "gale",
         "grove"
       ],
       "flavor" : "Visits every flower box in the neighborhood before breakfast. Its streamers smell of spring.",
+      "habitats" : [
+        "nature",
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "zephyrra",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 18,
+          "move" : "pollen_puff"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 22,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Zephyrra",
       "number" : 90,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "gullhop",
+        "galeon"
+      ],
       "elements" : [
         "gale"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Galeon",
       "flavor" : "Hangs around boardwalks waiting for someone to drop a fry. Nobody ever does.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "gullhop",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        }
+      ],
       "name" : "Gusthop",
       "number" : 91,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "gullhop",
+        "galeon"
+      ],
       "elements" : [
         "gale",
         "tide"
       ],
       "flavor" : "Its wings are as wide as a sail. It follows ships across the ocean and never seems tired.",
+      "habitats" : [
+        "water",
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "galeon",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 30,
+          "move" : "dive_bomb"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Galeon",
       "number" : 92,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "cranefold"
+      ],
       "elements" : [
         "gale",
         "prism"
       ],
       "flavor" : "A paper crane that folded itself out of a flyer's code. They say a thousand of them can grant a wish.",
+      "habitats" : [
+        "social",
+        "shop",
+        "travel",
+        "message",
+        "contact",
+        "cryptic"
+      ],
       "id" : "cranefold",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Cranefold",
       "number" : 93,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "glidrel"
+      ],
       "elements" : [
         "gale"
       ],
       "flavor" : "Leaps from park trees and glides from branch to branch. It never touches the ground.",
+      "habitats" : [
+        "social",
+        "travel",
+        "message"
+      ],
       "id" : "glidrel",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 24,
+          "move" : "whirl"
+        },
+        {
+          "level" : 26,
+          "move" : "zephyr"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        },
+        {
+          "level" : 46,
+          "move" : "dive_bomb"
+        }
+      ],
       "name" : "Glidrel",
       "number" : 94,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "chimelet"
+      ],
       "elements" : [
         "gale",
         "prism"
       ],
       "flavor" : "Hangs from porches and sings whenever the wind passes. Its song changes with the weather.",
+      "habitats" : [
+        "social",
+        "shop",
+        "travel",
+        "message",
+        "contact",
+        "cryptic"
+      ],
       "id" : "chimelet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "gust"
+        },
+        {
+          "level" : 8,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 20,
+          "move" : "tailwind"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "hurricane"
+        }
+      ],
       "name" : "Chimelet",
       "number" : 95,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "shadeling",
+        "shadelurk",
+        "umbrawl"
+      ],
       "elements" : [
         "shade"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Shadelurk",
       "flavor" : "Hides in the shadow under your bed and hums lullabies. Surprisingly bad at being scary.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "shadeling",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 13,
+          "move" : "hex_bolt"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 18,
+          "move" : "toxic_mist"
+        }
+      ],
       "name" : "Shadeling",
       "number" : 96,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "shadeling",
+        "shadelurk",
+        "umbrawl"
+      ],
       "elements" : [
         "shade"
       ],
       "evolvesAt" : 36,
       "evolvesInto" : "Umbrawl",
       "flavor" : "Half shadow, half mischief. It follows people home at a polite distance and pretends it isn't.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "shadelurk",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 13,
+          "move" : "hex_bolt"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 18,
+          "move" : "toxic_mist"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "phantom_claw"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Shadelurk",
       "number" : 97,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "shadeling",
+        "shadelurk",
+        "umbrawl"
+      ],
       "elements" : [
         "shade"
       ],
       "flavor" : "Stitched together from midnight. Only its glowing eyes give away where it's watching from.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "umbrawl",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 13,
+          "move" : "hex_bolt"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 18,
+          "move" : "toxic_mist"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "phantom_claw"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Umbrawl",
       "number" : 98,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "batbit",
+        "vespire"
+      ],
       "elements" : [
         "shade"
       ],
       "evolvesAt" : 22,
       "evolvesInto" : "Vespire",
       "flavor" : "Hangs upside down under bridges and squeaks at passing bikes. It only wants to say hello.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "batbit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        }
+      ],
       "name" : "Duskbit",
       "number" : 99,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "batbit",
+        "vespire"
+      ],
       "elements" : [
         "shade",
         "gale"
       ],
       "flavor" : "Sweeps through the city at dusk in a cloak of shadow. It has excellent manners and a terrible laugh.",
+      "habitats" : [
+        "media",
+        "social",
+        "travel",
+        "event",
+        "message",
+        "cryptic"
+      ],
       "id" : "vespire",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 22,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Vespire",
       "number" : 100,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "masklet",
+        "rummagoon"
+      ],
       "elements" : [
         "shade"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Rummagrim",
       "flavor" : "Washes everything it finds before eating it, including things that are not food.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "masklet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 18,
+          "move" : "hex_bolt"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        }
+      ],
       "name" : "Masklet",
       "number" : 101,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "masklet",
+        "rummagoon"
+      ],
       "elements" : [
         "shade"
       ],
       "flavor" : "Rules the alleys after midnight with a trash-can lid for a shield. Every bin on the block is its kingdom.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "rummagoon",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 18,
+          "move" : "hex_bolt"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "phantom_claw"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Rummagrim",
       "number" : 102,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "spinnet",
+        "gloomweaver"
+      ],
       "elements" : [
         "shade"
       ],
       "evolvesAt" : 24,
       "evolvesInto" : "Gloomweaver",
       "flavor" : "Spins tiny webs in mailbox corners. In the morning they're full of dew and look like lace.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "spinnet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 6,
+          "move" : "toxic_mist"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        }
+      ],
       "name" : "Spinnet",
       "number" : 103,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "spinnet",
+        "gloomweaver"
+      ],
       "elements" : [
         "shade",
         "grove"
       ],
       "flavor" : "Weaves webs that catch bad dreams. Moss and mushrooms grow on its back while it waits.",
+      "habitats" : [
+        "nature",
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "gloomweaver",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 6,
+          "move" : "toxic_mist"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "vine_whip"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "leaf_storm"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "petal_storm"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Gloomweaver",
       "number" : 104,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "inklet",
+        "inkraken"
+      ],
       "elements" : [
         "shade"
       ],
       "evolvesAt" : 28,
       "evolvesInto" : "Inkraken",
       "flavor" : "Leaves little ink footprints across every page it walks on. It's trying to write something.",
+      "habitats" : [
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "inklet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        }
+      ],
       "name" : "Inklet",
       "number" : 105,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "inklet",
+        "inkraken"
+      ],
       "elements" : [
         "shade",
         "tide"
       ],
       "flavor" : "Its ink clouds are so dark that light gets lost in them. Sailors tell stories, all of them true.",
+      "habitats" : [
+        "water",
+        "media",
+        "event",
+        "cryptic"
+      ],
       "id" : "inkraken",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        },
+        {
+          "level" : 46,
+          "move" : "soul_sap"
+        }
+      ],
       "name" : "Inkraken",
       "number" : 106,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "parcelgeist"
+      ],
       "elements" : [
         "shade"
       ],
       "flavor" : "Turns up at shop and package codes. Nobody remembers ordering it, and it was never returned.",
+      "habitats" : [
+        "shop",
+        "product"
+      ],
       "id" : "parcelgeist",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 18,
+          "move" : "hex_bolt"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "phantom_claw"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Parcelgeist",
       "number" : 107,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "lurelight"
+      ],
       "elements" : [
         "shade",
         "prism"
       ],
       "flavor" : "Lives where sunlight never reaches. Its lure glows in colors nobody has names for.",
+      "habitats" : [
+        "media",
+        "social",
+        "shop",
+        "event",
+        "contact",
+        "cryptic"
+      ],
       "id" : "lurelight",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 8,
+          "move" : "hypnosis"
+        },
+        {
+          "level" : 12,
+          "move" : "glint"
+        },
+        {
+          "level" : 16,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 20,
+          "move" : "creep"
+        },
+        {
+          "level" : 24,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 28,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 42,
+          "move" : "nightmare"
+        }
+      ],
       "name" : "Lurelight",
       "number" : 108,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "prismite",
+        "gleamfawn",
+        "lumenox"
+      ],
       "elements" : [
         "prism"
       ],
       "evolvesAt" : 20,
       "evolvesInto" : "Gleamlet",
       "flavor" : "Splits sunlight into rainbows to talk. Groups of them are mistaken for disco balls.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "prismite",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 9,
+          "move" : "barrier"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        }
+      ],
       "name" : "Prismite",
       "number" : 109,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "prismite",
+        "gleamfawn",
+        "lumenox"
+      ],
       "elements" : [
         "prism"
       ],
       "evolvesAt" : 36,
       "evolvesInto" : "Lumenox",
       "flavor" : "Its crystal spots catch the morning light. It's shy, but it always comes back.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "gleamfawn",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 9,
+          "move" : "barrier"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "glimmer"
+        },
+        {
+          "level" : 28,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        }
+      ],
       "name" : "Gleamlet",
       "number" : 110,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "prismite",
+        "gleamfawn",
+        "lumenox"
+      ],
       "elements" : [
         "prism"
       ],
       "flavor" : "Its crystal antlers hum a single clear note. Lost travelers follow its glow home.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "lumenox",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 9,
+          "move" : "barrier"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "glimmer"
+        },
+        {
+          "level" : 28,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 40,
+          "move" : "lumen_blast"
+        },
+        {
+          "level" : 42,
+          "move" : "rainbow_beam"
+        }
+      ],
       "name" : "Lumenox",
       "number" : 111,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "caterlux",
+        "chrysalux",
+        "aurorawing"
+      ],
       "elements" : [
         "prism"
       ],
       "evolvesAt" : 14,
       "evolvesInto" : "Chrysalux",
       "flavor" : "Nibbles flower petals and glows the same color as whatever it ate last.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "caterlux",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        }
+      ],
       "name" : "Lumicrawl",
       "number" : 112,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "caterlux",
+        "chrysalux",
+        "aurorawing"
+      ],
       "elements" : [
         "prism"
       ],
       "evolvesAt" : 26,
       "evolvesInto" : "Aurorawing",
       "flavor" : "Sleeps inside a shell of crystal, dreaming in colors. Light pours out through the cracks.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "chrysalux",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 14,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "wing_slash"
+        }
+      ],
       "name" : "Chrysalux",
       "number" : 113,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "caterlux",
+        "chrysalux",
+        "aurorawing"
+      ],
       "elements" : [
         "prism",
         "gale"
       ],
       "flavor" : "Its wings shimmer like the northern lights. Wherever it lands, the colors linger.",
+      "habitats" : [
+        "social",
+        "shop",
+        "travel",
+        "message",
+        "contact",
+        "cryptic"
+      ],
       "id" : "aurorawing",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "gust"
+        },
+        {
+          "level" : 14,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "wing_slash"
+        },
+        {
+          "level" : 26,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "rainbow_beam"
+        },
+        {
+          "level" : 46,
+          "move" : "supernova"
+        }
+      ],
       "name" : "Aurorawing",
       "number" : 114,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "pavlet",
+        "pavonix"
+      ],
       "elements" : [
         "prism"
       ],
       "evolvesAt" : 26,
       "evolvesInto" : "Pavonix",
       "flavor" : "Practices fanning its tiny tail in shop windows. It is very pleased with what it sees.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "pavlet",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "glimmer"
+        },
+        {
+          "level" : 24,
+          "move" : "feather_dance"
+        }
+      ],
       "name" : "Pavlet",
       "number" : 115,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "pavlet",
+        "pavonix"
+      ],
       "elements" : [
         "prism"
       ],
       "flavor" : "When it opens its tail, every eye on it glows. Crowds gather and forget why they came.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "pavonix",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "headbutt"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "glimmer"
+        },
+        {
+          "level" : 24,
+          "move" : "feather_dance"
+        },
+        {
+          "level" : 26,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "air_cutter"
+        },
+        {
+          "level" : 42,
+          "move" : "rainbow_beam"
+        }
+      ],
       "name" : "Pavonix",
       "number" : 116,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "cubic",
+        "polarize"
+      ],
       "elements" : [
         "prism"
       ],
       "evolvesAt" : 26,
       "evolvesInto" : "Polarize",
       "flavor" : "Carved from an ice cube and proud of it. It refuses to go anywhere warm and naps in freezers.",
+      "habitats" : [
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "cubic",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 18,
+          "move" : "chill_spray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        }
+      ],
       "name" : "Cubic",
       "number" : 117,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "cubic",
+        "polarize"
+      ],
       "elements" : [
         "prism",
         "tide"
       ],
       "flavor" : "The ice crystals on its back split sunlight into rainbows. On snowy days you can see it for miles.",
+      "habitats" : [
+        "water",
+        "social",
+        "shop",
+        "contact",
+        "cryptic"
+      ],
       "id" : "polarize",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "bubble"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 18,
+          "move" : "chill_spray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "water_pulse"
+        },
+        {
+          "level" : 26,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "tidal_crash"
+        },
+        {
+          "level" : 42,
+          "move" : "rainbow_beam"
+        }
+      ],
       "name" : "Polarize",
       "number" : 118,
       "rarity" : "common"
     },
     {
+      "chain" : [
+        "holobit"
+      ],
       "elements" : [
         "prism",
         "spark"
       ],
       "flavor" : "A pet projected from an app nobody remembers installing. It flickers when it's nervous.",
+      "habitats" : [
+        "tech"
+      ],
       "id" : "holobit",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "quick_strike"
+        },
+        {
+          "level" : 1,
+          "move" : "growl"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "zap"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "spark_dash"
+        },
+        {
+          "level" : 28,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "focus"
+        },
+        {
+          "level" : 36,
+          "move" : "thunderbolt"
+        },
+        {
+          "level" : 42,
+          "move" : "rainbow_beam"
+        }
+      ],
       "name" : "Holobit",
       "number" : 119,
       "rarity" : "uncommon"
     },
     {
+      "chain" : [
+        "reflectra"
+      ],
       "elements" : [
         "prism",
         "shade"
       ],
       "flavor" : "A hand mirror with a mind of its own. It shows you as you'd like to be, which is very kind of it.",
+      "habitats" : [
+        "media",
+        "social",
+        "shop",
+        "event",
+        "contact",
+        "cryptic"
+      ],
       "id" : "reflectra",
+      "learnset" : [
+        {
+          "level" : 1,
+          "move" : "tackle"
+        },
+        {
+          "level" : 1,
+          "move" : "harden"
+        },
+        {
+          "level" : 4,
+          "move" : "glint"
+        },
+        {
+          "level" : 8,
+          "move" : "dazzle"
+        },
+        {
+          "level" : 12,
+          "move" : "shadow_sneak"
+        },
+        {
+          "level" : 16,
+          "move" : "prism_ray"
+        },
+        {
+          "level" : 20,
+          "move" : "refract"
+        },
+        {
+          "level" : 24,
+          "move" : "night_bite"
+        },
+        {
+          "level" : 28,
+          "move" : "mirror_shard"
+        },
+        {
+          "level" : 32,
+          "move" : "recover"
+        },
+        {
+          "level" : 36,
+          "move" : "shadow_ball"
+        },
+        {
+          "level" : 42,
+          "move" : "rainbow_beam"
+        }
+      ],
       "name" : "Reflectra",
       "number" : 120,
       "rarity" : "rare"
     },
     {
+      "chain" : [
+        "solarch"
+      ],
       "elements" : [
         "blaze",
         "gale"
       ],
       "flavor" : "A blaze of noon on wings of fire. It circles above stadiums and festivals while the crowd is loudest.",
+      "habitats" : [
+
+      ],
       "id" : "solarch",
+      "learnset" : [
+
+      ],
       "name" : "Solarch",
       "number" : 121,
       "rarity" : "legendary",
       "rumor" : "Spotted near events & tickets at midday or dusk, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "tidalisk"
+      ],
       "elements" : [
         "tide",
         "stone"
       ],
       "flavor" : "An ancient tide that carries a sunken island on its back. The sea rises wherever it surfaces.",
+      "habitats" : [
+
+      ],
       "id" : "tidalisk",
+      "learnset" : [
+
+      ],
       "name" : "Tidalisk",
       "number" : 122,
       "rarity" : "legendary",
       "rumor" : "Spotted near waterside at dawn, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "sylvanox"
+      ],
       "elements" : [
         "grove",
         "shade"
       ],
       "flavor" : "The old forest's keeper. Its antlers bloom with light, and fireflies gather wherever it rests.",
+      "habitats" : [
+
+      ],
       "id" : "sylvanox",
+      "learnset" : [
+
+      ],
       "name" : "Sylvanox",
       "number" : 123,
       "rarity" : "legendary",
       "rumor" : "Spotted near parks & gardens at dusk or night, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "arcwyrm"
+      ],
       "elements" : [
         "spark",
         "gale"
       ],
       "flavor" : "A storm with a serpent's shape. It is said to swim through the city's cables at night, lighting them up.",
+      "habitats" : [
+
+      ],
       "id" : "arcwyrm",
+      "learnset" : [
+
+      ],
       "name" : "Arcwyrm",
       "number" : 124,
       "rarity" : "legendary",
       "rumor" : "Spotted near apps & tech and wi-fi codes at night, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "gaiadon"
+      ],
       "elements" : [
         "stone",
         "grove"
       ],
       "flavor" : "A range of mountains walks on its back. Where it lies down to sleep, maps have to be redrawn.",
+      "habitats" : [
+
+      ],
       "id" : "gaiadon",
+      "learnset" : [
+
+      ],
       "name" : "Gaiadon",
       "number" : 125,
       "rarity" : "legendary",
       "rumor" : "Spotted near map pins & places and travel at midday, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "tempestra"
+      ],
       "elements" : [
         "gale",
         "tide"
       ],
       "flavor" : "Rides the edge of every storm that crosses the ocean. Travelers who spot it from shore make a wish.",
+      "habitats" : [
+
+      ],
       "id" : "tempestra",
+      "learnset" : [
+
+      ],
       "name" : "Tempestra",
       "number" : 126,
       "rarity" : "legendary",
       "rumor" : "Spotted near travel at dawn or dusk, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "umbralis"
+      ],
       "elements" : [
         "shade",
         "prism"
       ],
       "flavor" : "A shadow that carries an eclipse on its back. When it calls, every streetlight in the city dims.",
+      "habitats" : [
+
+      ],
       "id" : "umbralis",
+      "learnset" : [
+
+      ],
       "name" : "Umbralis",
       "number" : 127,
       "rarity" : "legendary",
       "rumor" : "Spotted near cryptic codes and websites at night, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "prismara"
+      ],
       "elements" : [
         "prism",
         "gale"
       ],
       "flavor" : "Glides above concerts and fireworks on wings of light. Every color in the show is borrowed from it.",
+      "habitats" : [
+
+      ],
       "id" : "prismara",
+      "learnset" : [
+
+      ],
       "name" : "Prismara",
       "number" : 128,
       "rarity" : "legendary",
       "rumor" : "Spotted near events & tickets and video & music at dusk, by trainers of rank 15 and up. It never stays in one place."
     },
     {
+      "chain" : [
+        "glitchbit"
+      ],
       "elements" : [
         "prism",
         "shade"
       ],
       "flavor" : "Born from a corrupted code that was scanned a million times. It surfaces only where the signal is weakest.",
+      "habitats" : [
+
+      ],
       "id" : "glitchbit",
+      "learnset" : [
+
+      ],
       "name" : "Glitchbit",
       "number" : 129,
       "rarity" : "mythic",
       "rumor" : "They say it only surfaces from broken codes, when every clock reads 3."
     },
     {
+      "chain" : [
+        "omnicode"
+      ],
       "elements" : [
         "prism",
         "gale"
       ],
       "flavor" : "Said to be the first code ever scanned, still waiting to be read. Its three finder squares never stop turning.",
+      "habitats" : [
+
+      ],
       "id" : "omnicode",
+      "learnset" : [
+
+      ],
       "name" : "Omnicode",
       "number" : 130,
       "rarity" : "mythic",
       "rumor" : "Some say it waits for a trainer who has found every kind of code."
     },
     {
+      "chain" : [
+        "echoveil"
+      ],
       "elements" : [
         "shade",
         "gale"
       ],
       "flavor" : "An echo of every visit to the same place. Return often enough, and one day it will be waiting.",
+      "habitats" : [
+
+      ],
       "id" : "echoveil",
+      "learnset" : [
+
+      ],
       "name" : "Echoveil",
       "number" : 131,
       "rarity" : "mythic",
@@ -1546,6 +7894,11 @@
       "color" : "#FF7AD9",
       "id" : "prism",
       "name" : "Prism"
+    },
+    {
+      "color" : "#B8B2A7",
+      "id" : "neutral",
+      "name" : "Neutral"
     }
   ],
   "events" : {
@@ -1742,6 +8095,733 @@
       "lore" : "Every site and message has its own residents.",
       "name" : "Text notes",
       "oneCode" : "a text-note code"
+    }
+  ],
+  "moves" : [
+    {
+      "accuracy" : 100,
+      "element" : "neutral",
+      "id" : "tackle",
+      "name" : "Bonk",
+      "power" : 40,
+      "pp" : 35,
+      "summary" : "A full-body charge."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "neutral",
+      "id" : "quick_strike",
+      "name" : "Dart",
+      "power" : 40,
+      "pp" : 30,
+      "summary" : "Always strikes first."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "neutral",
+      "id" : "headbutt",
+      "name" : "Ram",
+      "power" : 70,
+      "pp" : 15,
+      "summary" : "A solid headfirst ram."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "neutral",
+      "id" : "growl",
+      "name" : "Snarl",
+      "power" : 0,
+      "pp" : 40,
+      "summary" : "Lowers the foe's Attack."
+    },
+    {
+      "element" : "neutral",
+      "id" : "harden",
+      "name" : "Brace",
+      "power" : 0,
+      "pp" : 30,
+      "summary" : "Raises Defense."
+    },
+    {
+      "element" : "neutral",
+      "id" : "focus",
+      "name" : "Wind Up",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Sharply raises Attack."
+    },
+    {
+      "element" : "neutral",
+      "id" : "recover",
+      "name" : "Patch Up",
+      "power" : 0,
+      "pp" : 10,
+      "summary" : "Restores half of max HP."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "neutral",
+      "id" : "screech",
+      "name" : "Shriek",
+      "power" : 0,
+      "pp" : 40,
+      "summary" : "Sharply lowers the foe's Defense."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "blaze",
+      "id" : "ember",
+      "name" : "Cinder",
+      "power" : 40,
+      "pp" : 25,
+      "summary" : "Small flames. May burn."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "blaze",
+      "id" : "flame_wheel",
+      "name" : "Fire Roll",
+      "power" : 60,
+      "pp" : 25,
+      "summary" : "A rolling, fiery charge. May burn."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "blaze",
+      "id" : "blaze_burst",
+      "name" : "Flare Burst",
+      "power" : 90,
+      "pp" : 15,
+      "summary" : "An eruption of flame. May burn."
+    },
+    {
+      "accuracy" : 80,
+      "element" : "blaze",
+      "id" : "inferno",
+      "name" : "Wildfire",
+      "power" : 110,
+      "pp" : 5,
+      "summary" : "A torrent of fire. Often burns."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "blaze",
+      "id" : "scorch",
+      "name" : "Singe",
+      "power" : 0,
+      "pp" : 15,
+      "summary" : "Inflicts a burn."
+    },
+    {
+      "element" : "blaze",
+      "id" : "kindle",
+      "name" : "Stoke",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Sharply raises Speed."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "tide",
+      "id" : "bubble",
+      "name" : "Fizz",
+      "power" : 40,
+      "pp" : 30,
+      "summary" : "A spray of bubbles. May slow."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "tide",
+      "id" : "aqua_jet",
+      "name" : "Splash Dash",
+      "power" : 40,
+      "pp" : 20,
+      "summary" : "Always strikes first."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "tide",
+      "id" : "water_pulse",
+      "name" : "Ripple Shot",
+      "power" : 60,
+      "pp" : 20,
+      "summary" : "A pulsing orb of water."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "tide",
+      "id" : "tidal_crash",
+      "name" : "Breaker",
+      "power" : 90,
+      "pp" : 15,
+      "summary" : "A crushing wave."
+    },
+    {
+      "accuracy" : 80,
+      "element" : "tide",
+      "id" : "torrent",
+      "name" : "Deluge",
+      "power" : 110,
+      "pp" : 5,
+      "summary" : "A massive blast of water."
+    },
+    {
+      "element" : "tide",
+      "id" : "mist_veil",
+      "name" : "Mist Shroud",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Sharply raises Defense."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "grove",
+      "id" : "vine_whip",
+      "name" : "Vine Lash",
+      "power" : 45,
+      "pp" : 25,
+      "summary" : "Lashes with vines."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "grove",
+      "id" : "leaf_storm",
+      "name" : "Leaf Flurry",
+      "power" : 70,
+      "pp" : 20,
+      "summary" : "Razor leaves swirl at the foe."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "grove",
+      "id" : "giga_drain",
+      "name" : "Sap Siphon",
+      "power" : 60,
+      "pp" : 10,
+      "summary" : "Drains half the damage dealt."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "grove",
+      "id" : "solar_burst",
+      "name" : "Sunbeam",
+      "power" : 110,
+      "pp" : 5,
+      "summary" : "A beam of gathered sunlight."
+    },
+    {
+      "accuracy" : 75,
+      "element" : "grove",
+      "id" : "spore_cloud",
+      "name" : "Dream Spores",
+      "power" : 0,
+      "pp" : 15,
+      "summary" : "Puts the foe to sleep."
+    },
+    {
+      "element" : "grove",
+      "id" : "photosynth",
+      "name" : "Sun Soak",
+      "power" : 0,
+      "pp" : 10,
+      "summary" : "Restores half of max HP."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "spark",
+      "id" : "zap",
+      "name" : "Zap",
+      "power" : 40,
+      "pp" : 30,
+      "summary" : "A crackling jolt. May paralyze."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "spark",
+      "id" : "spark_dash",
+      "name" : "Volt Dash",
+      "power" : 65,
+      "pp" : 20,
+      "summary" : "An electrified tackle. May paralyze."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "spark",
+      "id" : "thunderbolt",
+      "name" : "Arc Bolt",
+      "power" : 90,
+      "pp" : 15,
+      "summary" : "A strong bolt. May paralyze."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "spark",
+      "id" : "volt_crash",
+      "name" : "Surge Slam",
+      "power" : 120,
+      "pp" : 10,
+      "summary" : "Huge damage, but hurts the user."
+    },
+    {
+      "accuracy" : 90,
+      "element" : "spark",
+      "id" : "static_wave",
+      "name" : "Static Field",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Paralyzes the foe."
+    },
+    {
+      "element" : "spark",
+      "id" : "overclock",
+      "name" : "Overclock",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Sharply raises Speed."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "stone",
+      "id" : "pebble_toss",
+      "name" : "Pebble Toss",
+      "power" : 40,
+      "pp" : 30,
+      "summary" : "Hurls a handful of stones."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "stone",
+      "id" : "rock_smash",
+      "name" : "Rock Crack",
+      "power" : 60,
+      "pp" : 20,
+      "summary" : "May lower the foe's Defense."
+    },
+    {
+      "accuracy" : 90,
+      "element" : "stone",
+      "id" : "boulder_roll",
+      "name" : "Boulder Roll",
+      "power" : 80,
+      "pp" : 15,
+      "summary" : "Rolls a heavy boulder."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "stone",
+      "id" : "quake",
+      "name" : "Tremor",
+      "power" : 100,
+      "pp" : 10,
+      "summary" : "Shakes the ground violently."
+    },
+    {
+      "element" : "stone",
+      "id" : "fortify",
+      "name" : "Fortify",
+      "power" : 0,
+      "pp" : 15,
+      "summary" : "Sharply raises Defense."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "gale",
+      "id" : "gust",
+      "name" : "Puff",
+      "power" : 40,
+      "pp" : 35,
+      "summary" : "A sharp blast of wind."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "gale",
+      "id" : "wing_slash",
+      "name" : "Wing Clip",
+      "power" : 60,
+      "pp" : 25,
+      "summary" : "Strikes with sharp wings."
+    },
+    {
+      "accuracy" : 95,
+      "element" : "gale",
+      "id" : "air_cutter",
+      "name" : "Wind Blades",
+      "power" : 75,
+      "pp" : 20,
+      "summary" : "Blades of air slice the foe."
+    },
+    {
+      "accuracy" : 70,
+      "element" : "gale",
+      "id" : "hurricane",
+      "name" : "Cyclone",
+      "power" : 110,
+      "pp" : 10,
+      "summary" : "A ferocious storm."
+    },
+    {
+      "element" : "gale",
+      "id" : "tailwind",
+      "name" : "Updraft",
+      "power" : 0,
+      "pp" : 15,
+      "summary" : "Sharply raises Speed."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "gale",
+      "id" : "feather_dance",
+      "name" : "Feather Fluff",
+      "power" : 0,
+      "pp" : 15,
+      "summary" : "Sharply lowers the foe's Attack."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "shade",
+      "id" : "shadow_sneak",
+      "name" : "Shade Step",
+      "power" : 40,
+      "pp" : 30,
+      "summary" : "Always strikes first."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "shade",
+      "id" : "night_bite",
+      "name" : "Gloom Bite",
+      "power" : 60,
+      "pp" : 25,
+      "summary" : "May lower the foe's Defense."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "shade",
+      "id" : "hex_bolt",
+      "name" : "Hex Bolt",
+      "power" : 65,
+      "pp" : 20,
+      "summary" : "A cursed bolt of shadow."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "shade",
+      "id" : "shadow_ball",
+      "name" : "Dusk Orb",
+      "power" : 90,
+      "pp" : 15,
+      "summary" : "A ball of condensed darkness."
+    },
+    {
+      "accuracy" : 90,
+      "element" : "shade",
+      "id" : "toxic_mist",
+      "name" : "Miasma",
+      "power" : 0,
+      "pp" : 15,
+      "summary" : "Poisons the foe."
+    },
+    {
+      "accuracy" : 65,
+      "element" : "shade",
+      "id" : "hypnosis",
+      "name" : "Lullaby",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Lulls the foe to sleep."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "prism",
+      "id" : "glint",
+      "name" : "Glint",
+      "power" : 40,
+      "pp" : 30,
+      "summary" : "A flash of focused light."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "prism",
+      "id" : "prism_ray",
+      "name" : "Prism Ray",
+      "power" : 65,
+      "pp" : 20,
+      "summary" : "May lower the foe's Speed."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "prism",
+      "id" : "mirror_shard",
+      "name" : "Mirror Shard",
+      "power" : 80,
+      "pp" : 15,
+      "summary" : "Fires shards of crystal."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "prism",
+      "id" : "lumen_blast",
+      "name" : "Lumen Blast",
+      "power" : 100,
+      "pp" : 10,
+      "summary" : "A blinding blast of light."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "prism",
+      "id" : "dazzle",
+      "name" : "Dazzle",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Lowers the foe's accuracy."
+    },
+    {
+      "element" : "prism",
+      "id" : "barrier",
+      "name" : "Crystal Wall",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Sharply raises Defense."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "blaze",
+      "id" : "magma_slam",
+      "name" : "Magma Slam",
+      "power" : 75,
+      "pp" : 15,
+      "summary" : "A molten body blow. May burn."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "blaze",
+      "id" : "heat_haze",
+      "name" : "Heat Haze",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Shimmering heat lowers the foe's accuracy."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "blaze",
+      "id" : "meteor_flare",
+      "name" : "Meteor Flare",
+      "power" : 130,
+      "pp" : 5,
+      "summary" : "A falling star of fire. Hurts the user."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "tide",
+      "id" : "chill_spray",
+      "name" : "Chill Spray",
+      "power" : 55,
+      "pp" : 25,
+      "summary" : "Icy droplets. May slow the foe."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "tide",
+      "id" : "riptide",
+      "name" : "Riptide",
+      "power" : 75,
+      "pp" : 15,
+      "summary" : "A dragging current. May lower Defense."
+    },
+    {
+      "accuracy" : 90,
+      "element" : "tide",
+      "id" : "geyser",
+      "name" : "Geyser",
+      "power" : 100,
+      "pp" : 10,
+      "summary" : "Water erupts from below."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "grove",
+      "id" : "thorn_jab",
+      "name" : "Thorn Jab",
+      "power" : 55,
+      "pp" : 25,
+      "summary" : "A barbed jab. May poison."
+    },
+    {
+      "element" : "grove",
+      "id" : "bark_skin",
+      "name" : "Bark Skin",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Sharply raises Defense."
+    },
+    {
+      "accuracy" : 90,
+      "element" : "grove",
+      "id" : "petal_storm",
+      "name" : "Petal Storm",
+      "power" : 95,
+      "pp" : 10,
+      "summary" : "A whirlwind of razor petals."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "grove",
+      "id" : "pollen_puff",
+      "name" : "Pollen Puff",
+      "power" : 50,
+      "pp" : 25,
+      "summary" : "A ball of pollen. May lower Attack."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "spark",
+      "id" : "ion_beam",
+      "name" : "Ion Beam",
+      "power" : 75,
+      "pp" : 15,
+      "summary" : "A charged beam. May lower Defense."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "spark",
+      "id" : "spark_shower",
+      "name" : "Spark Shower",
+      "power" : 55,
+      "pp" : 25,
+      "summary" : "A spray of sparks. May paralyze."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "spark",
+      "id" : "short_circuit",
+      "name" : "Short Circuit",
+      "power" : 100,
+      "pp" : 10,
+      "summary" : "Everything shorts out. May paralyze."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "stone",
+      "id" : "stone_spike",
+      "name" : "Stone Spike",
+      "power" : 55,
+      "pp" : 25,
+      "summary" : "Launches a sharp spike of stone."
+    },
+    {
+      "accuracy" : 95,
+      "element" : "stone",
+      "id" : "landslide",
+      "name" : "Landslide",
+      "power" : 90,
+      "pp" : 10,
+      "summary" : "Tons of rock slide down. May slow."
+    },
+    {
+      "element" : "stone",
+      "id" : "pebble_shield",
+      "name" : "Pebble Shield",
+      "power" : 0,
+      "pp" : 30,
+      "summary" : "Raises Defense."
+    },
+    {
+      "accuracy" : 90,
+      "element" : "gale",
+      "id" : "dive_bomb",
+      "name" : "Dive Bomb",
+      "power" : 100,
+      "pp" : 10,
+      "summary" : "Plummets onto the foe. Hurts the user."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "gale",
+      "id" : "zephyr",
+      "name" : "Zephyr",
+      "power" : 55,
+      "pp" : 25,
+      "summary" : "A teasing breeze. May lower accuracy."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "gale",
+      "id" : "whirl",
+      "name" : "Whirl",
+      "power" : 70,
+      "pp" : 20,
+      "summary" : "A spinning gale. May slow."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "shade",
+      "id" : "phantom_claw",
+      "name" : "Phantom Claw",
+      "power" : 75,
+      "pp" : 15,
+      "summary" : "Claws that pass through armor."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "shade",
+      "id" : "nightmare",
+      "name" : "Nightmare",
+      "power" : 100,
+      "pp" : 10,
+      "summary" : "A waking nightmare. May poison."
+    },
+    {
+      "accuracy" : 95,
+      "element" : "shade",
+      "id" : "creep",
+      "name" : "Creep",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Unsettles the foe. Sharply lowers Speed."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "shade",
+      "id" : "soul_sap",
+      "name" : "Soul Sap",
+      "power" : 60,
+      "pp" : 15,
+      "summary" : "Drains half the damage dealt."
+    },
+    {
+      "accuracy" : 95,
+      "element" : "prism",
+      "id" : "rainbow_beam",
+      "name" : "Rainbow Beam",
+      "power" : 90,
+      "pp" : 10,
+      "summary" : "Every color at once. May slow."
+    },
+    {
+      "accuracy" : 100,
+      "element" : "prism",
+      "id" : "glimmer",
+      "name" : "Glimmer",
+      "power" : 55,
+      "pp" : 25,
+      "summary" : "A dazzling twinkle. May lower accuracy."
+    },
+    {
+      "accuracy" : 85,
+      "element" : "prism",
+      "id" : "supernova",
+      "name" : "Supernova",
+      "power" : 130,
+      "pp" : 5,
+      "summary" : "A star bursts. Hurts the user."
+    },
+    {
+      "element" : "prism",
+      "id" : "refract",
+      "name" : "Refract",
+      "power" : 0,
+      "pp" : 20,
+      "summary" : "Bends light around itself. Sharply raises Speed."
     }
   ]
 }

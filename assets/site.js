@@ -46,7 +46,8 @@ function showEvents(data, elements, habitats) {
   document.querySelector(".events").hidden = false;
 }
 
-function showGallery(data, elements) {
+function showGallery(data, context) {
+  const elements = context.elements;
   const gallery = document.getElementById("gallery");
   const filters = document.getElementById("filters");
   const dialog = document.getElementById("codekin-detail");
@@ -66,14 +67,15 @@ function showGallery(data, elements) {
       element("span", { class: "chips" }, hidden ? [element("span", { class: "chip rarity", text: label })]
         : kin.elements.map((id) => chip(elements.get(id)))),
     ]);
-    button.addEventListener("click", () => openDetail(dialog, kin, hidden, elements));
+    button.addEventListener("click", () => openDetail(dialog, kin, context));
     const cell = element("li", {}, [button]);
     cell.dataset.elements = kin.elements.join(" ");
     return cell;
   });
   gallery.replaceChildren(...cells);
 
-  const options = [{ id: "all", name: "All", color: "var(--cyan)" }, ...data.elements];
+  // Neutral is only a move element: no Codekin is neutral.
+  const options = [{ id: "all", name: "All", color: "var(--cyan)" }, ...data.elements.filter((info) => info.id !== "neutral")];
   const buttons = options.map((option) => {
     const button = element("button", { type: "button", class: "filter", "aria-pressed": option.id === "all" ? "true" : "false",
       style: { "--tint": option.color } }, [option.name]);
@@ -88,7 +90,54 @@ function showGallery(data, elements) {
   filters.replaceChildren(...buttons);
 }
 
-function openDetail(dialog, kin, hidden, elements) {
+function isSecret(kin) { return kin.rarity === "legendary" || kin.rarity === "mythic"; }
+
+function section(title, children) {
+  return element("section", { class: "detail-section" }, [element("h3", { text: title }), ...children]);
+}
+
+// The family, first form to last, each a button to its own page, with the level each evolves at between them.
+function chainView(dialog, kin, context) {
+  const family = (kin.chain ?? []).map((id) => context.kinById.get(id)).filter(Boolean);
+  if (family.length < 2) return null;
+  const steps = [];
+  family.forEach((member, index) => {
+    if (index > 0) {
+      steps.push(element("span", { class: "chain-arrow", "aria-hidden": "true", text: `Lv ${family[index - 1].evolvesAt} →` }));
+    }
+    const button = element("button", { type: "button", class: member.id === kin.id ? "chain-kin current" : "chain-kin",
+      "aria-label": member.id === kin.id ? `${member.name}, shown` : `Show ${member.name}` }, [
+      element("img", { src: `${base}assets/codekin/${member.id}.webp`, alt: "", width: 72, height: 72, loading: "lazy" }),
+      element("span", { text: member.name }),
+    ]);
+    if (member.id !== kin.id) button.addEventListener("click", () => openDetail(dialog, member, context));
+    steps.push(button);
+  });
+  return section("Evolution", [element("div", { class: "chain" }, steps)]);
+}
+
+// The moves it learns as it levels, with each move's element, power and what it does.
+function learnsetView(kin, context) {
+  if (!kin.learnset?.length) return null;
+  const rows = kin.learnset.map((entry) => {
+    const move = context.moves.get(entry.move);
+    if (!move) return null;
+    return element("li", {}, [
+      element("span", { class: "lv", text: entry.level <= 1 ? "Start" : `Lv ${entry.level}` }),
+      element("span", { class: "move" }, [
+        element("strong", { text: move.name }),
+        element("small", { text: move.summary }),
+      ]),
+      chip(context.elements.get(move.element) ?? { name: move.element, color: "#9aaac4" }),
+      element("span", { class: "power", text: move.power > 0 ? String(move.power) : "—", title: move.power > 0 ? "Power" : "Status move" }),
+    ]);
+  }).filter(Boolean);
+  return section("Moves it learns", [element("ol", { class: "learnset" }, rows)]);
+}
+
+function openDetail(dialog, kin, context) {
+  const hidden = isSecret(kin);
+  const elements = context.elements;
   const image = dialog.querySelector("#detail-image");
   image.src = `${base}assets/codekin/${kin.id}.webp`;
   image.alt = hidden ? "" : kin.name;
@@ -99,9 +148,21 @@ function openDetail(dialog, kin, hidden, elements) {
   dialog.querySelector("#detail-flavor").textContent = hidden
     ? (kin.rumor ?? "Nobody has seen it yet.")
     : kin.flavor;
-  dialog.querySelector("#detail-evolution").textContent = !hidden && kin.evolvesInto
-    ? `Evolves into ${kin.evolvesInto} at level ${kin.evolvesAt}.` : "";
-  dialog.showModal();
+  dialog.querySelector("#detail-evolution").textContent = "";
+  const more = [];
+  if (!hidden) {
+    const chain = chainView(dialog, kin, context);
+    if (chain) more.push(chain);
+    if (kin.habitats?.length) {
+      more.push(section("Turns up at", [element("span", { class: "chips" },
+        kin.habitats.map((id) => element("span", { class: "chip", text: context.habitats.get(id)?.name ?? id, style: { "--tint": "#9aaac4" } })))]));
+    }
+    const moves = learnsetView(kin, context);
+    if (moves) more.push(moves);
+  }
+  dialog.querySelector("#detail-more").replaceChildren(...more);
+  dialog.scrollTop = 0;
+  if (!dialog.open) dialog.showModal();
 }
 
 function showHabitats(data, elements) {
@@ -121,8 +182,13 @@ async function start() {
     const data = await response.json();
     const elements = new Map(data.elements.map((info) => [info.id, info]));
     const habitats = new Map(data.habitats.map((info) => [info.id, info]));
+    const context = {
+      elements, habitats,
+      moves: new Map((data.moves ?? []).map((move) => [move.id, move])),
+      kinById: new Map(data.codekin.map((kin) => [kin.id, kin])),
+    };
     showEvents(data, elements, habitats);
-    showGallery(data, elements);
+    showGallery(data, context);
     showHabitats(data, elements);
   } catch (error) {
     document.getElementById("gallery").replaceChildren(element("li", { class: "section-lede", text: "The Codekin couldn't load. Try reloading the page." }));
