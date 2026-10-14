@@ -46,6 +46,41 @@ function showEvents(data, elements, habitats) {
   document.querySelector(".events").hidden = false;
 }
 
+// Live events from the Codekin server, laid over the built-in calendar like the game does: one that changes the featured
+// habitat or the month's element takes that slot, and the rest show on their own with the time they have left.
+async function showLiveEvents(elements, habitats) {
+  let events = [];
+  try {
+    const response = await fetch("https://api.playcodekin.com/public/events", { cache: "no-store" });
+    if (!response.ok) return;
+    const now = Date.now();
+    events = (await response.json()).events.filter((event) =>
+      new Date(event.startsAt).getTime() <= now && now < new Date(event.endsAt).getTime());
+  } catch { return; }
+  const left = (end) => {
+    const hours = Math.max(1, Math.round((new Date(end).getTime() - Date.now()) / 3_600_000));
+    return hours >= 48 ? `${Math.round(hours / 24)} days left` : `${hours} hours left`;
+  };
+  const row = document.querySelector(".event-row");
+  for (const event of events) {
+    if (event.featuredHabitat && habitats.get(event.featuredHabitat)) {
+      document.getElementById("event-week").textContent = habitats.get(event.featuredHabitat).name;
+    }
+    if (event.surgingElement && elements.get(event.surgingElement)) {
+      const surge = elements.get(event.surgingElement);
+      const month = document.getElementById("event-month");
+      month.textContent = `${surge.name} Codekin`;
+      month.style.color = surge.color;
+    }
+    row.append(element("div", { class: "event live" }, [
+      element("span", { class: "event-label", text: `Live · ${left(event.endsAt)}` }),
+      element("strong", { text: event.title }),
+      element("span", { text: event.detail }),
+    ]));
+  }
+  if (events.length) document.querySelector(".events").hidden = false;
+}
+
 function showGallery(data, context) {
   const elements = context.elements;
   const gallery = document.getElementById("gallery");
@@ -188,6 +223,7 @@ async function start() {
       kinById: new Map(data.codekin.map((kin) => [kin.id, kin])),
     };
     showEvents(data, elements, habitats);
+    showLiveEvents(elements, habitats);
     showGallery(data, context);
     showHabitats(data, elements);
   } catch (error) {

@@ -125,6 +125,7 @@ h3 { font-family: var(--display); font-stretch: condensed; text-transform: upper
 .events { display: grid; gap: 12px; }
 .event-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .event { display: grid; gap: 2px; }
+.event.live .event-label { color: var(--magenta, #ff4fd8); }
 .event-label { color: var(--muted); font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; }
 .event strong { font-family: var(--display); font-stretch: condensed; text-transform: uppercase; font-size: 28px;
   font-weight: 800; line-height: 1.1; color: #ffd15c; }

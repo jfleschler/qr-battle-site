@@ -1,0 +1,12 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["SL3ZAF83LE.com.jfleschler.qrbattle"],
+        "components": [
+          { "/": "/raid/*", "comment": "Raid rally links open the raid in Codekin" }
+        ]
+      }
+    ]
+  }
+}
